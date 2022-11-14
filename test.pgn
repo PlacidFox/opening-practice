@@ -1,0 +1,45 @@
+[Event "ChessRepertoire - White: White - E4 - vs Caro-Kann"]
+[Site "https://lichess.org/study/pVxuFeun/SvCEUfPJ"]
+[Result "*"]
+[UTCDate "2022.11.14"]
+[UTCTime "10:03:25"]
+[Variant "Standard"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense: Two Knights Attack"]
+[Annotator "https://lichess.org/@/Valcraft021"]
+[FEN "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"]
+[SetUp "1"]
+
+1... c6 2. Nf3 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 *
+
+
+[Event "ChessRepertoire - White: White - e4 - vs Scandinave"]
+[Site "https://lichess.org/study/pVxuFeun/eQaa1JfQ"]
+[Result "*"]
+[UTCDate "2022.11.14"]
+[UTCTime "10:05:07"]
+[Variant "Standard"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Lasker Variation"]
+[Annotator "https://lichess.org/@/Valcraft021"]
+[FEN "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"]
+[SetUp "1"]
+
+1... d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Nf3 Nf6 5. d4 Bg4 6. h3 Bxf3 7. Qxf3 *
+
+
+[Event "ChessRepertoire - White: White - e4 - vs French"]
+[Site "https://lichess.org/study/pVxuFeun/Trtl9PIT"]
+[Result "*"]
+[UTCDate "2022.11.14"]
+[UTCTime "10:06:30"]
+[Variant "Standard"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation"]
+[Annotator "https://lichess.org/@/Valcraft021"]
+[FEN "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"]
+[SetUp "1"]
+
+1... e6 2. d4 d5 3. exd5 exd5 4. Nc3 Nf6 5. Nf3 Nc6 6. Bb5 *
+
+
