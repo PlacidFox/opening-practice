@@ -3,16 +3,15 @@
 
 <head>
     <title>Page Web Script JS</title> 
-    <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/get_case_choice.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/js_img.js') }}"></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 
 <body>
-    <h1 id="header">Bonjour</h1>
+    <h1 id="header">Chess Training App</h1>
     <p id="textp"></p>
-    <input id="clickMe" type="button" value="Draw Pieces" onclick="drawPieces()" />
-    <input id="clickMe" type="button" value="Show Selected" onclick="show_selected_case()" />
+    <input id="clickMe" type="button" value="Draw Pieces" onclick="drawPieces();init_get_choice();" />
 
     <ul>
         <div class="divv" id="row8">
@@ -87,7 +86,6 @@
         </div>
         <div class="divv" id="row1">
             <li class="case case_black" id="case_A1">rookW</li>
-            <!--<li class="case case_black" id="case_A1"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wR.svg') }}"></li>-->
             <li class="case case_white" id="case_B1">knightW</li>
             <li class="case case_black" id="case_C1">bishopW</li>
             <li class="case case_white" id="case_D1">queenW</li>
@@ -97,45 +95,6 @@
             <li class="case case_white" id="case_H1">rookW</li>
         </div>
     </ul>
-
-    <script>
-        let selected_case_id = ""
-        let is_first_case_selected = null
-
-        document.querySelectorAll('.case').forEach(item => {
-            item.addEventListener('click', function () {
-                if (selected_case_id == item.id) {
-                    selected_case_id = null
-                }
-                else{
-                    selected_case_id = item.id
-
-                    
-
-                }  
-                show_selected_case()
-                console.log(selected_case_id);       
-        })
-        })
-
-        let color_noir = document.getElementById("case_A8").style.backgroundColor;
-        let color_blanc = document.getElementById("case_B8").style.backgroundColor;
-
-        function show_selected_case(){
-
-            document.querySelectorAll('.case_white').forEach(item => {
-                item.style.backgroundColor = color_blanc;
-            })
-            document.querySelectorAll('.case_black').forEach(item => {
-                item.style.backgroundColor = color_noir;
-            })
-
-            if (selected_case_id !== null){
-                document.getElementById(selected_case_id).style.backgroundColor = "blue";
-            }
-        }
-
-    </script>
 
 
 </body>

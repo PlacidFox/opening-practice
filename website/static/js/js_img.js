@@ -35,9 +35,6 @@ let link_img_pawnB = "<img class=\"piece\" src=\"/static/img_piece/maestro/bP.sv
 
 function drawPieces() {
 
-    let link_img_rookW = "<img class=\"piece\" src=\"/static/img_piece/maestro/wR.svg\">"
-    //let link_img = "<img class=\"piece\" src=\"rookW.png\"></img>"
-
     console.log("draw pieces functions")
 
     document.querySelectorAll('.case').forEach(image => {
