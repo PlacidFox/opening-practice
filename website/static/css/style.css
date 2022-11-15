@@ -17,6 +17,11 @@ ul {
     height: 75px;
 }
 
+.piece {
+    width: 75px;
+    height: 75px;
+}
+
 .case_white {
     background-color: lightgoldenrodyellow;
 }
