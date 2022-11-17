@@ -11,91 +11,95 @@
 <body>
     <h1 id="header">Chess Training App</h1>
     <p id="textp"></p>
-    <input id="clickMe" type="button" value="Draw Pieces" onclick="drawPieces();init_get_choice();" />
+    <input id="clickMe" type="button" value="Restart Pieces" onclick="init_pieces_position()" />
 
     <ul>
         <div class="divv" id="row8">
-            <li class="case case_white" id="case_A8">rookB</li>
-            <li class="case case_black" id="case_B8">knightB</li>
-            <li class="case case_white" id="case_C8">bishopB</li>
-            <li class="case case_black" id="case_D8">queenB</li>
-            <li class="case case_white" id="case_E8">kingB</li>
-            <li class="case case_black" id="case_F8">bishopB</li>
-            <li class="case case_white" id="case_G8">knightB</li>
-            <li class="case case_black" id="case_H8">rookB</li>
+            <li class="case case_white" id="A8"></li>
+            <li class="case case_black" id="B8"></li>
+            <li class="case case_white" id="C8"></li>
+            <li class="case case_black" id="D8"></li>
+            <li class="case case_white" id="E8"></li>
+            <li class="case case_black" id="F8"></li>
+            <li class="case case_white" id="G8"></li>
+            <li class="case case_black" id="H8"></li>
         </div>
         <div class="divv" id="row7">
-            <li class="case case_black" id="case_A7">pawnB</li>
-            <li class="case case_white" id="case_B7">pawnB</li>
-            <li class="case case_black" id="case_C7">pawnB</li>
-            <li class="case case_white" id="case_D7">pawnB</li>
-            <li class="case case_black" id="case_E7">pawnB</li>
-            <li class="case case_white" id="case_F7">pawnB</li>
-            <li class="case case_black" id="case_G7">pawnB</li>
-            <li class="case case_white" id="case_H7">pawnB</li>
+            <li class="case case_black" id="A7"></li>
+            <li class="case case_white" id="B7"></li>
+            <li class="case case_black" id="C7"></li>
+            <li class="case case_white" id="D7"></li>
+            <li class="case case_black" id="E7"></li>
+            <li class="case case_white" id="F7"></li>
+            <li class="case case_black" id="G7"></li>
+            <li class="case case_white" id="H7"></li>
         </div>
         <div class="divv" id="row6">
-            <li class="case case_white" id="case_A6"></li>
-            <li class="case case_black" id="case_B6"></li>
-            <li class="case case_white" id="case_C6"></li>
-            <li class="case case_black" id="case_D6"></li>
-            <li class="case case_white" id="case_E6"></li>
-            <li class="case case_black" id="case_F6"></li>
-            <li class="case case_white" id="case_G6"></li>
-            <li class="case case_black" id="case_H6"></li>
+            <li class="case case_white" id="A6"></li>
+            <li class="case case_black" id="B6"></li>
+            <li class="case case_white" id="C6"></li>
+            <li class="case case_black" id="D6"></li>
+            <li class="case case_white" id="E6"></li>
+            <li class="case case_black" id="F6"></li>
+            <li class="case case_white" id="G6"></li>
+            <li class="case case_black" id="H6"></li>
         </div>
         <div class="divv" id="row5">
-            <li class="case case_black" id="case_A5"></li>
-            <li class="case case_white" id="case_B5"></li>
-            <li class="case case_black" id="case_C5"></li>
-            <li class="case case_white" id="case_D5"></li>
-            <li class="case case_black" id="case_E5"></li>
-            <li class="case case_white" id="case_F5"></li>
-            <li class="case case_black" id="case_G5"></li>
-            <li class="case case_white" id="case_H5"></li>
+            <li class="case case_black" id="A5"></li>
+            <li class="case case_white" id="B5"></li>
+            <li class="case case_black" id="C5"></li>
+            <li class="case case_white" id="D5"></li>
+            <li class="case case_black" id="E5"></li>
+            <li class="case case_white" id="F5"></li>
+            <li class="case case_black" id="G5"></li>
+            <li class="case case_white" id="H5"></li>
         </div>
         <div class="divv" id="row4">
-            <li class="case case_white" id="case_A4"></li>
-            <li class="case case_black" id="case_B4"></li>
-            <li class="case case_white" id="case_C4"></li>
-            <li class="case case_black" id="case_D4"></li>
-            <li class="case case_white" id="case_E4"></li>
-            <li class="case case_black" id="case_F4"></li>
-            <li class="case case_white" id="case_G4"></li>
-            <li class="case case_black" id="case_H4"></li>
+            <li class="case case_white" id="A4"></li>
+            <li class="case case_black" id="B4"></li>
+            <li class="case case_white" id="C4"></li>
+            <li class="case case_black" id="D4"></li>
+            <li class="case case_white" id="E4"></li>
+            <li class="case case_black" id="F4"></li>
+            <li class="case case_white" id="G4"></li>
+            <li class="case case_black" id="H4"></li>
         </div>
         <div class="divv" id="row3">
-            <li class="case case_black" id="case_A3"></li>
-            <li class="case case_white" id="case_B3"></li>
-            <li class="case case_black" id="case_C3"></li>
-            <li class="case case_white" id="case_D3"></li>
-            <li class="case case_black" id="case_E3"></li>
-            <li class="case case_white" id="case_F3"></li>
-            <li class="case case_black" id="case_G3"></li>
-            <li class="case case_white" id="case_H3"></li>
+            <li class="case case_black" id="A3"></li>
+            <li class="case case_white" id="B3"></li>
+            <li class="case case_black" id="C3"></li>
+            <li class="case case_white" id="D3"></li>
+            <li class="case case_black" id="E3"></li>
+            <li class="case case_white" id="F3"></li>
+            <li class="case case_black" id="G3"></li>
+            <li class="case case_white" id="H3"></li>
         </div>
         <div class="divv" id="row2">
-            <li class="case case_white" id="case_A2">pawnW</li>
-            <li class="case case_black" id="case_B2">pawnW</li>
-            <li class="case case_white" id="case_C2">pawnW</li>
-            <li class="case case_black" id="case_D2">pawnW</li>
-            <li class="case case_white" id="case_E2">pawnW</li>
-            <li class="case case_black" id="case_F2">pawnW</li>
-            <li class="case case_white" id="case_G2">pawnW</li>
-            <li class="case case_black" id="case_H2">pawnW</li>
+            <li class="case case_white" id="A2"></li>
+            <li class="case case_black" id="B2"></li>
+            <li class="case case_white" id="C2"></li>
+            <li class="case case_black" id="D2"></li>
+            <li class="case case_white" id="E2"></li>
+            <li class="case case_black" id="F2"></li>
+            <li class="case case_white" id="G2"></li>
+            <li class="case case_black" id="H2"></li>
         </div>
         <div class="divv" id="row1">
-            <li class="case case_black" id="case_A1">rookW</li>
-            <li class="case case_white" id="case_B1">knightW</li>
-            <li class="case case_black" id="case_C1">bishopW</li>
-            <li class="case case_white" id="case_D1">queenW</li>
-            <li class="case case_black" id="case_E1">kingW</li>
-            <li class="case case_white" id="case_F1">bishopW</li>
-            <li class="case case_black" id="case_G1">knightW</li>
-            <li class="case case_white" id="case_H1">rookW</li>
+            <li class="case case_black" id="A1"></li>
+            <li class="case case_white" id="B1"></li>
+            <li class="case case_black" id="C1"></li>
+            <li class="case case_white" id="D1"></li>
+            <li class="case case_black" id="E1"></li>
+            <li class="case case_white" id="F1"></li>
+            <li class="case case_black" id="G1"></li>
+            <li class="case case_white" id="H1"></li>
         </div>
     </ul>
 
+    <script>
+    listen_choice()
+    init_pieces_position()
+    </script>
 
 </body>
 </html>

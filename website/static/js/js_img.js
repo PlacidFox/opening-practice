@@ -1,82 +1,121 @@
-//<div class="divv" id="row2">
-//<li class="case case_white" id="case_A2"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wP.svg') }}"></li>
-//<li class="case case_black" id="case_B2"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wP.svg') }}"></li>
-//<li class="case case_white" id="case_C2"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wP.svg') }}"></li>
-//<li class="case case_black" id="case_D2"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wP.svg') }}"></li>
-//<li class="case case_white" id="case_E2"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wP.svg') }}"></li>
-//<li class="case case_black" id="case_F2"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wP.svg') }}"></li>
-//<li class="case case_white" id="case_G2"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wP.svg') }}"></li>
-//<li class="case case_black" id="case_H2"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wP.svg') }}"></li>
-//</div>
-//<div class="divv" id="row1">
-//<li class="case case_black" id="case_A1"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wR.svg') }}"></li>
-//<li class="case case_white" id="case_B1"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wN.svg') }}"></li>
-//<li class="case case_black" id="case_C1"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wB.svg') }}"></li>
-//<li class="case case_white" id="case_D1"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wQ.svg') }}"></li>
-//<li class="case case_black" id="case_E1"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wK.svg') }}"></li>
-//<li class="case case_white" id="case_F1"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wB.svg') }}"></li>
-//<li class="case case_black" id="case_G1"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wN.svg') }}"></li>
-//<li class="case case_white" id="case_H1"><img class="piece" src="{{ url_for('static', filename='img_piece/maestro/wR.svg') }}"></li>
-//</div>
+let link_img_Wrook = "<img class=\"piece\" src=\"/static/img_piece/maestro/wR.svg\">"
+let link_img_Wknight = "<img class=\"piece\" src=\"/static/img_piece/maestro/wN.svg\">"
+let link_img_Wbishop = "<img class=\"piece\" src=\"/static/img_piece/maestro/wB.svg\">"
+let link_img_Wqueen = "<img class=\"piece\" src=\"/static/img_piece/maestro/wQ.svg\">"
+let link_img_Wking = "<img class=\"piece\" src=\"/static/img_piece/maestro/wK.svg\">"
+let link_img_Wpawn = "<img class=\"piece\" src=\"/static/img_piece/maestro/wP.svg\">"
 
-let link_img_rookW = "<img class=\"piece\" src=\"/static/img_piece/maestro/wR.svg\">"
-let link_img_knightW = "<img class=\"piece\" src=\"/static/img_piece/maestro/wN.svg\">"
-let link_img_bishopW = "<img class=\"piece\" src=\"/static/img_piece/maestro/wB.svg\">"
-let link_img_queenW = "<img class=\"piece\" src=\"/static/img_piece/maestro/wQ.svg\">"
-let link_img_kingW = "<img class=\"piece\" src=\"/static/img_piece/maestro/wK.svg\">"
-let link_img_pawnW = "<img class=\"piece\" src=\"/static/img_piece/maestro/wP.svg\">"
+let link_img_Brook = "<img class=\"piece\" src=\"/static/img_piece/maestro/bR.svg\">"
+let link_img_Bknight = "<img class=\"piece\" src=\"/static/img_piece/maestro/bN.svg\">"
+let link_img_Bbishop = "<img class=\"piece\" src=\"/static/img_piece/maestro/bB.svg\">"
+let link_img_Bqueen = "<img class=\"piece\" src=\"/static/img_piece/maestro/bQ.svg\">"
+let link_img_Bking = "<img class=\"piece\" src=\"/static/img_piece/maestro/bK.svg\">"
+let link_img_Bpawn = "<img class=\"piece\" src=\"/static/img_piece/maestro/bP.svg\">"
 
-let link_img_rookB = "<img class=\"piece\" src=\"/static/img_piece/maestro/bR.svg\">"
-let link_img_knightB = "<img class=\"piece\" src=\"/static/img_piece/maestro/bN.svg\">"
-let link_img_bishopB = "<img class=\"piece\" src=\"/static/img_piece/maestro/bB.svg\">"
-let link_img_queenB = "<img class=\"piece\" src=\"/static/img_piece/maestro/bQ.svg\">"
-let link_img_kingB = "<img class=\"piece\" src=\"/static/img_piece/maestro/bK.svg\">"
-let link_img_pawnB = "<img class=\"piece\" src=\"/static/img_piece/maestro/bP.svg\">"
+
+const dict_init_pieces_position = {
+    A1: "Wrook",
+    B1: "Wknight",
+    C1: "Wbishop",
+    D1: "Wqueen",
+    E1: "Wking",
+    F1: "Wbishop",
+    G1: "Wknight",
+    H1: "Wrook",
+
+    A2: "Wpawn",
+    B2: "Wpawn",
+    C2: "Wpawn",
+    D2: "Wpawn",
+    E2: "Wpawn",
+    F2: "Wpawn",
+    G2: "Wpawn",
+    H2: "Wpawn",
+
+    A7: "Bpawn",
+    B7: "Bpawn",
+    C7: "Bpawn",
+    D7: "Bpawn",
+    E7: "Bpawn",
+    F7: "Bpawn",
+    G7: "Bpawn",
+    H7: "Bpawn",
+
+    A8: "Brook",
+    B8: "Bknight",
+    C8: "Bbishop",
+    D8: "Bqueen",
+    E8: "Bking",
+    F8: "Bbishop",
+    G8: "Bknight",
+    H8: "Brook"  
+};
+
+function init_pieces_position(){
+    document.querySelectorAll('.case').forEach(box => {
+        box.innerHTML = "" // to delete all pieces before placiung new ones
+
+        // to delete previous move color // to put info function clear color ?
+        document.querySelectorAll('.case_white').forEach(item => {
+            item.style.backgroundColor = color_blanc;
+        })
+        document.querySelectorAll('.case_black').forEach(item => {
+            item.style.backgroundColor = color_noir;
+        })
+        
+        if (box.id in dict_init_pieces_position){
+
+            box.innerHTML = dict_init_pieces_position[box.id]
+        } 
+
+
+    })
+
+    drawPieces()
+}
 
 function drawPieces() {
-
-    console.log("draw pieces functions")
 
     document.querySelectorAll('.case').forEach(image => {
 
         if (image.innerText.length !== 0) {
             switch (image.innerText){
-                case "rookW":
-                    image.innerHTML = link_img_rookW;
+                case "Wrook":
+                    image.innerHTML = image.innerHTML + link_img_Wrook;
                     break;
-                case "knightW":
-                    image.innerHTML = link_img_knightW;
+                case "Wknight":
+                    image.innerHTML = image.innerHTML + link_img_Wknight;
                     break;
-                case "bishopW":
-                    image.innerHTML = link_img_bishopW;
+                case "Wbishop":
+                    image.innerHTML = image.innerHTML + link_img_Wbishop;
                     break;
-                case "queenW":
-                    image.innerHTML = link_img_queenW;
+                case "Wqueen":
+                    image.innerHTML = image.innerHTML + link_img_Wqueen;
                     break;
-                case "kingW":
-                    image.innerHTML = link_img_kingW;
+                case "Wking":
+                    image.innerHTML = image.innerHTML + link_img_Wking;
                     break;
-                case "pawnW":
-                    image.innerHTML = link_img_pawnW;
+                case "Wpawn":
+                    image.innerHTML = image.innerHTML + link_img_Wpawn;
                     break;
 
-                case "rookB":
-                    image.innerHTML = link_img_rookB;
+                case "Brook":
+                    image.innerHTML = image.innerHTML + link_img_Brook;
                     break;
-                case "knightB":
-                    image.innerHTML = link_img_knightB;
+                case "Bknight":
+                    image.innerHTML = image.innerHTML + link_img_Bknight;
                     break;
-                case "bishopB":
-                    image.innerHTML = link_img_bishopB;
+                case "Bbishop":
+                    image.innerHTML = image.innerHTML + link_img_Bbishop;
                     break;
-                case "queenB":
-                    image.innerHTML = link_img_queenB;
+                case "Bqueen":
+                    image.innerHTML = image.innerHTML + link_img_Bqueen;
                     break;
-                case "kingB":
-                    image.innerHTML = link_img_kingB;
+                case "Bking":
+                    image.innerHTML = image.innerHTML + link_img_Bking;
                     break;
-                case "pawnB":
-                    image.innerHTML = link_img_pawnB;
+                case "Bpawn":
+                    image.innerHTML = image.innerHTML + link_img_Bpawn;
                     break;
     
 
