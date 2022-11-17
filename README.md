@@ -14,12 +14,16 @@ Current state :
 - moves pieces & delete captured pieces
 - switch side
 
+Next-Steps :
+- show all moves at the side ? (format UCI pour le moment ?)
+- JSON of moves to compare to played me Console Log if OK then only if ok allow to play (or else put in red ?)
+
 
 
 To do :
 rename CASE -> BOX
 - legal moves ? or not necessary ?
 - show check ?
-- show all moves a the side ?
+
 
 /!\ - img piece libres de droits ?
