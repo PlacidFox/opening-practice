@@ -1,0 +1,285 @@
+{
+  "color": "White",
+  "games": [
+    {
+      "name": "ChessRepertoire - White: E4 - vs Caro-Kann",
+      "moves_without_number": [
+        "e4",
+        "c6",
+        "Nf3",
+        "d5",
+        "Nc3",
+        "dxe4",
+        "Nxe4",
+        "Nf6",
+        "Ng3"
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d5",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "c3",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "g3"
+        }
+      ]
+    },
+    {
+      "name": "ChessRepertoire - White: E4 - vs Scandinave",
+      "moves_without_number": [
+        "e4",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "Nf3",
+        "Nf6",
+        "d4"
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d5",
+          "to_square": "a5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        }
+      ]
+    },
+    {
+      "name": "ChessRepertoire - White: E4 - vs Francaise",
+      "moves_without_number": [
+        "e4",
+        "e6",
+        "d4",
+        "d5",
+        "exd5",
+        "exd5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5"
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "e6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        }
+      ]
+    },
+    {
+      "name": "ChessRepertoire - White: E4 - vs E5",
+      "moves_without_number": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "a6",
+        "Ba4"
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "a7",
+          "to_square": "a6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "b5",
+          "to_square": "a4"
+        }
+      ]
+    }
+  ]
+}

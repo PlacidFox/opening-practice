@@ -1,0 +1,39 @@
+[Event "ChessRepertoire - Black: Black - vs 1.E4 - Caro-Kann - Avance"]
+[Site "https://lichess.org/study/Bdv5DTTo/rLLpxKuy"]
+[Result "*"]
+[UTCDate "2022.11.14"]
+[UTCTime "09:56:21"]
+[Variant "Standard"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense"]
+[Annotator "https://lichess.org/@/Valcraft021"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. Nf3 cxd4 5. Nxd4 Nc6 6. Nxc6 bxc6 *
+
+
+[Event "ChessRepertoire - Black: Black - vs 1.E4 - Caro-Kann - Classical"]
+[Site "https://lichess.org/study/Bdv5DTTo/9C38TPBU"]
+[Result "*"]
+[UTCDate "2022.11.14"]
+[UTCTime "09:57:34"]
+[Variant "Standard"]
+[ECO "B15"]
+[Opening "Caro-Kann Defense: Tartakower Variation"]
+[Annotator "https://lichess.org/@/Valcraft021"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 *
+
+
+[Event "ChessRepertoire - Black: Black - vs 1.d4 - Slav"]
+[Site "https://lichess.org/study/Bdv5DTTo/hf8xuHMO"]
+[Result "*"]
+[UTCDate "2022.11.14"]
+[UTCTime "09:58:55"]
+[Variant "Standard"]
+[ECO "D15"]
+[Opening "Slav Defense: Three Knights Variation"]
+[Annotator "https://lichess.org/@/Valcraft021"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 Bf5 *
+
+

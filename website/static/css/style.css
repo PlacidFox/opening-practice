@@ -22,15 +22,45 @@ ul {
     place-items: center;
 }
 
+li {
+    list-style: none;
+    display: grid;
+    place-items: center;
+    font-size: 0px;
+}
+
 .divv {
     display: flex;
 }
 
-.case {
+.square {
     display: flex;
     margin: .5px;
     width: 75px;
     height: 75px;
+}
+
+.notation{
+    margin: .5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.not_lign{
+    width: 20px;
+    height: 75px;
+}
+
+.not_col{
+    width: 75px;
+    height: 20px;
+}
+
+.not_angle{
+    width: 20px;
+    height: 20px;
 }
 
 .piece {
@@ -38,20 +68,15 @@ ul {
     height: 75px;
 }
 
-.case_white {
+.sq_white {
     background-color: lightgoldenrodyellow;
 }
 
-.case_black {
+.sq_black {
     background-color: maroon;
 }
 
 
-li {
-    list-style: none;
-    display: grid;
-    place-items: center;
-    font-size: 0px;
-}
+
 
 

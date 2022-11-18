@@ -52,15 +52,15 @@ const dict_init_pieces_position = {
 };
 
 function init_pieces_position(){
-    document.querySelectorAll('.case').forEach(box => {
+    document.querySelectorAll('.square').forEach(box => {
         box.innerHTML = "" // to delete all pieces before placiung new ones
 
         // to delete previous move color // to put info function clear color ?
-        document.querySelectorAll('.case_white').forEach(item => {
-            item.style.backgroundColor = color_blanc;
+        document.querySelectorAll('.sq_white').forEach(item => {
+            item.style.backgroundColor = color_white;
         })
-        document.querySelectorAll('.case_black').forEach(item => {
-            item.style.backgroundColor = color_noir;
+        document.querySelectorAll('.sq_black').forEach(item => {
+            item.style.backgroundColor = color_black;
         })
         
         if (box.id in dict_init_pieces_position){
@@ -76,7 +76,7 @@ function init_pieces_position(){
 
 function drawPieces() {
 
-    document.querySelectorAll('.case').forEach(image => {
+    document.querySelectorAll('.square').forEach(image => {
 
         if (image.innerText.length !== 0) {
             switch (image.innerText){

@@ -1,0 +1,236 @@
+{
+  "color": "Black",
+  "games": [
+    {
+      "name": "ChessRepertoire - Black: Black - vs 1.E4 - Caro-Kann - Avance",
+      "moves_without_number": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "e5",
+        "c5",
+        "Nf3",
+        "cxd4",
+        "Nxd4",
+        "Nc6",
+        "Nxc6",
+        "bxc6"
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "f3",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "d4",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "b7",
+          "to_square": "c6"
+        }
+      ]
+    },
+    {
+      "name": "ChessRepertoire - Black: Black - vs 1.E4 - Caro-Kann - Classical",
+      "moves_without_number": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "Nc3",
+        "dxe4",
+        "Nxe4",
+        "Nf6",
+        "Nxf6+",
+        "exf6"
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d5",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "c3",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "f6"
+        }
+      ]
+    },
+    {
+      "name": "ChessRepertoire - Black: Black - vs 1.d4 - Slav",
+      "moves_without_number": [
+        "d4",
+        "d5",
+        "c4",
+        "c6",
+        "Nf3",
+        "Nf6",
+        "Nc3",
+        "Bf5"
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "f5"
+        }
+      ]
+    }
+  ]
+}
