@@ -52,8 +52,8 @@ const dict_init_pieces_position = {
 };
 
 function init_pieces_position(){
-    document.querySelectorAll('.square').forEach(box => {
-        box.innerHTML = "" // to delete all pieces before placiung new ones
+    document.querySelectorAll('.square').forEach(square => {
+        square.innerHTML = "" // to delete all pieces before placiung new ones
 
         // to delete previous move color // to put info function clear color ?
         document.querySelectorAll('.sq_white').forEach(item => {
@@ -63,9 +63,9 @@ function init_pieces_position(){
             item.style.backgroundColor = color_black;
         })
         
-        if (box.id in dict_init_pieces_position){
+        if (square.id in dict_init_pieces_position){
 
-            box.innerHTML = dict_init_pieces_position[box.id]
+            square.innerHTML = dict_init_pieces_position[square.id]
         } 
 
 

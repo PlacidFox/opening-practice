@@ -4,7 +4,8 @@
 <head>
     <title>Page Web Script JS</title> 
     <script type="text/javascript" src="{{ url_for('static', filename='js/get_case_choice.js') }}"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='js/js_img.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/draw_board.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/training_mode.js') }}"></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 
@@ -12,6 +13,8 @@
     <h1 id="header">Chess Training App</h1>
     <p id="textp"></p>
     <input id="clickMe" type="button" value="Restart Pieces" onclick="init_pieces_position()" />
+    <input id="clickMe" type="button" value="Training Mode" onclick="training_test()" />
+
 
     <ul>
         <div class="divv" id="row8">

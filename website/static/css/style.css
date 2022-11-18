@@ -14,6 +14,14 @@ ul {
     place-items: center;
 }
 
+#textp{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+}
+
 #clickMe{
     display: grid;
     grid-template-columns: 1fr;
