@@ -1,6 +1,6 @@
 # Chess Opening Practice
 
-Chess Repertoire Training app to ramdomly test knowldege of your own opening repertoire
+Chess Repertoire Training app to randomly test knowldege of your own opening repertoire
 
 Still in developpement
 This project is made for me to learn JavaScript
@@ -17,7 +17,7 @@ Current state :
 Next-Steps :
 - show all moves at the side ? (format UCI pour le moment ?)
 - JSON of moves to compare to played me Console Log if OK then only if ok allow to play (or else put in red ?)
-
+- reverse board and coordinates
 
 
 To do :
