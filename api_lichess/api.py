@@ -9,8 +9,6 @@ for color in Colors:
     dict_games = moves_to_dict(games, color)
     save_games_json(dict_games, color)
 
-
-
     
     
 

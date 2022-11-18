@@ -3,16 +3,52 @@
   "games": [
     {
       "name": "ChessRepertoire - White: E4 - vs Caro-Kann",
-      "moves_without_number": [
-        "e4",
-        "c6",
-        "Nf3",
-        "d5",
-        "Nc3",
-        "dxe4",
-        "Nxe4",
-        "Nf6",
-        "Ng3"
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "dxe4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nxe4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Ng3"
+        }
       ],
       "moves_uci": [
         {
@@ -73,16 +109,52 @@
     },
     {
       "name": "ChessRepertoire - White: E4 - vs Scandinave",
-      "moves_without_number": [
-        "e4",
-        "d5",
-        "exd5",
-        "Qxd5",
-        "Nc3",
-        "Qa5",
-        "Nf3",
-        "Nf6",
-        "d4"
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Qxd5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Qa5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "d4"
+        }
       ],
       "moves_uci": [
         {
@@ -143,18 +215,62 @@
     },
     {
       "name": "ChessRepertoire - White: E4 - vs Francaise",
-      "moves_without_number": [
-        "e4",
-        "e6",
-        "d4",
-        "d5",
-        "exd5",
-        "exd5",
-        "Nf3",
-        "Nc6",
-        "Nc3",
-        "Nf6",
-        "Bb5"
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "exd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Bb5"
+        }
       ],
       "moves_uci": [
         {
@@ -227,14 +343,42 @@
     },
     {
       "name": "ChessRepertoire - White: E4 - vs E5",
-      "moves_without_number": [
-        "e4",
-        "e5",
-        "Nf3",
-        "Nc6",
-        "Bb5",
-        "a6",
-        "Ba4"
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "a6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Ba4"
+        }
       ],
       "moves_uci": [
         {

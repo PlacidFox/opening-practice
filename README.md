@@ -16,10 +16,8 @@ Current state :
 
 Next-Steps :
 - show all moves at the side ? (format UCI pour le moment ?)
-- JSON of moves to compare to played me Console Log if OK then only if ok allow to play (or else put in red ?)
-- in JSON nb moves also for PGN notation to show in UI ? and number also ?
 - reverse board
-
+- play vs JSON database
     
 
 To do :

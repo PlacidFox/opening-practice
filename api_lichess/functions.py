@@ -83,6 +83,37 @@ def get_only_moves(game_moves):
               
         return (tab_only_moves)
     
+#make a dict from pgn moves  - #COLOR STILL MANUEL IN CODE - TO DO BETTER - AND GET MOVE NUMBER IF BLACK START ?
+def dict_pgn_moves(tab_only_moves):
+    n = 2
+
+    list_dict_pgn_moves = []
+    
+    nb_move = 0
+    white_move = True
+
+    for i in range(0, len(tab_only_moves)):
+        
+        if white_move is True:
+            color = COLORS_NAME[Colors.WHITE]
+            nb_move += 1
+
+        elif white_move is False:
+            color = COLORS_NAME[Colors.BLACK]
+
+        dict_pgn_moves = {"move_number": nb_move,
+                          "color": color,
+                          "move": tab_only_moves[i],                    
+                          }
+    
+        list_dict_pgn_moves.append(dict_pgn_moves)
+
+        white_move = not white_move #change color turn
+    
+    return list_dict_pgn_moves
+
+
+    
     
 #create a liste of move in UCI Format : easier to check and do moves with coordinates (E2 -> E4), than just only e4
 def moves_to_uci_format(tab_only_moves):
@@ -146,11 +177,13 @@ def moves_to_dict(games, color):
         
         game_moves = split_game_moves(game)
         tab_only_moves = get_only_moves(game_moves)
+        dict_pgn = dict_pgn_moves(tab_only_moves)
+                
         tab_uci_moves = moves_to_uci_format(tab_only_moves)
         dict_uci = dict_uci_moves(tab_uci_moves)
         
         dict_game = {"name": game.headers["Event"],      
-                      "moves_without_number": tab_only_moves,
+                      "moves_pgn": dict_pgn,
                       "moves_uci": dict_uci
         }
         dict_moves["games"].append(dict_game)

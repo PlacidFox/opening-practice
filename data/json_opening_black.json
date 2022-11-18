@@ -3,19 +3,67 @@
   "games": [
     {
       "name": "ChessRepertoire - Black: Black - vs 1.E4 - Caro-Kann - Avance",
-      "moves_without_number": [
-        "e4",
-        "c6",
-        "d4",
-        "d5",
-        "e5",
-        "c5",
-        "Nf3",
-        "cxd4",
-        "Nxd4",
-        "Nc6",
-        "Nxc6",
-        "bxc6"
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nxd4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Nxc6"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "bxc6"
+        }
       ],
       "moves_uci": [
         {
@@ -94,17 +142,57 @@
     },
     {
       "name": "ChessRepertoire - Black: Black - vs 1.E4 - Caro-Kann - Classical",
-      "moves_without_number": [
-        "e4",
-        "c6",
-        "d4",
-        "d5",
-        "Nc3",
-        "dxe4",
-        "Nxe4",
-        "Nf6",
-        "Nxf6+",
-        "exf6"
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "dxe4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nxe4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nxf6+"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "exf6"
+        }
       ],
       "moves_uci": [
         {
@@ -171,15 +259,47 @@
     },
     {
       "name": "ChessRepertoire - Black: Black - vs 1.d4 - Slav",
-      "moves_without_number": [
-        "d4",
-        "d5",
-        "c4",
-        "c6",
-        "Nf3",
-        "Nf6",
-        "Nc3",
-        "Bf5"
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Bf5"
+        }
       ],
       "moves_uci": [
         {
