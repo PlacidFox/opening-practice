@@ -16,7 +16,6 @@ Current state :
 
 Next-Steps :
 - show all moves at the side ? (format UCI pour le moment ?)
-- reverse board
 - play vs JSON database
     
 
