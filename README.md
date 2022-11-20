@@ -18,6 +18,7 @@ Next-Steps :
 - show all moves at the side ? (format UCI pour le moment ?)
 - play vs JSON database
 - put board with fen
+- switch side avec une class orientation dans le div chessboard ? comme lichess / chesscom ?
 
 
 
