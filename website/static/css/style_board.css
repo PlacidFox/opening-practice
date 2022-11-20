@@ -1,0 +1,96 @@
+ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+}
+
+#header{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+}
+
+#textp{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+}
+
+#clickMe{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+}
+
+li {
+    list-style: none;
+    display: grid;
+    place-items: center;
+    font-size: 0px;
+}
+
+.divv {
+    display: flex;
+}
+
+.square {
+    display: flex;
+    margin: .5px;
+    width: 75px;
+    height: 75px;
+}
+
+.notation{
+    margin: .5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.not_side{
+    width: 20px;
+    height: 75px;
+}
+
+.not_below{
+    width: 75px;
+    height: 20px;
+}
+
+.not_angle{
+    width: 20px;
+    height: 20px;
+}
+
+.piece {
+    width: 75px;
+    height: 75px;
+}
+
+
+.sq_white {
+    background-color: lightgoldenrodyellow;
+}
+
+
+.sq_black {
+    background-color: maroon;
+}
+
+
+#textp{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+}
