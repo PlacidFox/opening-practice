@@ -18,11 +18,15 @@ Next-Steps :
 - show all moves at the side ? (format UCI pour le moment ?)
 - reverse board
 - play vs JSON database
-    
+- put board with fen
+
+
 
 To do :
 - legal moves ? or not necessary ?
 - show check ?
+
+Clock for time test
 
 Get Better : 
 #split uci moves into from_coordinates et to_coordinates - #COLOR STILL MANUEL IN CODE - TO DO BETTER - AND GET MOVE NUMBER IF BLACK START ?
