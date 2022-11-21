@@ -1,13 +1,6 @@
-ul {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-left: auto;
-    margin-right: auto;
-    place-items: center;
-}
-
 #header{
     display: grid;
+    margin-top: 10px;
     grid-template-columns: 1fr;
     margin-left: auto;
     margin-right: auto;
@@ -30,15 +23,83 @@ ul {
     place-items: center;
 }
 
-li {
+.nav-link{
+    color: white;
+
+}
+
+
+.game-space {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.moves-div, .empty-moves-div{
+    width: 200px;
+}
+
+#moves-header{ 
+    font-weight: bold;
+    text-align: center;
+}
+
+#moves-list{
+    display: grid;
+}
+
+#table-moves {
+    margin-left: 10%;
+    width: 80%;
+    background-color: grey;
+}
+
+#row-move-number{
+    width: 10%;
+}
+
+ #row-move-detail{
+    text-align: center;
+    width: 45%;
+}
+
+.board {
+    
+}
+
+.divv {
+    display: flex;
+}
+
+.sq_white {
+    background-color: lightgoldenrodyellow;
+}
+
+
+.sq_black {
+    background-color: maroon;
+}
+
+ul.board-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+}
+
+li.li-board {
     list-style: none;
     display: grid;
     place-items: center;
     font-size: 0px;
 }
 
-.divv {
-    display: flex;
+li.li-notation {
+    list-style: none;
+    display: grid;
+    place-items: center;
 }
 
 .square {
@@ -56,12 +117,12 @@ li {
     font-size: 15px;
 }
 
-.not_lign{
+.not_side{
     width: 20px;
     height: 75px;
 }
 
-.not_col{
+.not_below{
     width: 75px;
     height: 20px;
 }
@@ -76,15 +137,10 @@ li {
     height: 75px;
 }
 
-.sq_white {
-    background-color: lightgoldenrodyellow;
+#textp{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
 }
-
-.sq_black {
-    background-color: maroon;
-}
-
-
-
-
-

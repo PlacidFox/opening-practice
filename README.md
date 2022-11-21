@@ -13,18 +13,16 @@ Current state :
 - capture moves (only pieces of the color to play)
 - moves pieces & delete captured pieces
 - switch side
+- show all moves at the side (only if start at 1 and white)
 
 Next-Steps :
-- show all moves at the side ? (format UCI pour le moment ?)
 - play vs JSON database
-- put board with fen
-- switch side avec une class orientation dans le div chessboard ? comme lichess / chesscom ?
-
-
+- put board with fen (start black and not at move 1 ?)
 
 To do :
 - legal moves ? or not necessary ?
 - show check ?
+- show moves if not start at 1. & white
 
 Clock for time test
 

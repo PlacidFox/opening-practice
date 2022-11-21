@@ -1,27 +1,27 @@
-let link_img_Wrook = "<img class=\"piece\" src=\"/static/img_piece/maestro/wR.svg\">"
-let link_img_Wknight = "<img class=\"piece\" src=\"/static/img_piece/maestro/wN.svg\">"
-let link_img_Wbishop = "<img class=\"piece\" src=\"/static/img_piece/maestro/wB.svg\">"
-let link_img_Wqueen = "<img class=\"piece\" src=\"/static/img_piece/maestro/wQ.svg\">"
-let link_img_Wking = "<img class=\"piece\" src=\"/static/img_piece/maestro/wK.svg\">"
+let link_img_WRook = "<img class=\"piece\" src=\"/static/img_piece/maestro/wR.svg\">"
+let link_img_WNight = "<img class=\"piece\" src=\"/static/img_piece/maestro/wN.svg\">"
+let link_img_WBishop = "<img class=\"piece\" src=\"/static/img_piece/maestro/wB.svg\">"
+let link_img_WQueen = "<img class=\"piece\" src=\"/static/img_piece/maestro/wQ.svg\">"
+let link_img_WKing = "<img class=\"piece\" src=\"/static/img_piece/maestro/wK.svg\">"
 let link_img_Wpawn = "<img class=\"piece\" src=\"/static/img_piece/maestro/wP.svg\">"
 
-let link_img_Brook = "<img class=\"piece\" src=\"/static/img_piece/maestro/bR.svg\">"
-let link_img_Bknight = "<img class=\"piece\" src=\"/static/img_piece/maestro/bN.svg\">"
-let link_img_Bbishop = "<img class=\"piece\" src=\"/static/img_piece/maestro/bB.svg\">"
-let link_img_Bqueen = "<img class=\"piece\" src=\"/static/img_piece/maestro/bQ.svg\">"
-let link_img_Bking = "<img class=\"piece\" src=\"/static/img_piece/maestro/bK.svg\">"
+let link_img_BRook = "<img class=\"piece\" src=\"/static/img_piece/maestro/bR.svg\">"
+let link_img_BNight = "<img class=\"piece\" src=\"/static/img_piece/maestro/bN.svg\">"
+let link_img_BBishop = "<img class=\"piece\" src=\"/static/img_piece/maestro/bB.svg\">"
+let link_img_BQueen = "<img class=\"piece\" src=\"/static/img_piece/maestro/bQ.svg\">"
+let link_img_BKing = "<img class=\"piece\" src=\"/static/img_piece/maestro/bK.svg\">"
 let link_img_Bpawn = "<img class=\"piece\" src=\"/static/img_piece/maestro/bP.svg\">"
 
 
 const dict_init_pieces_position = {
-    A1: "Wrook",
-    B1: "Wknight",
-    C1: "Wbishop",
-    D1: "Wqueen",
-    E1: "Wking",
-    F1: "Wbishop",
-    G1: "Wknight",
-    H1: "Wrook",
+    A1: "WRook",
+    B1: "WNight",
+    C1: "WBishop",
+    D1: "WQueen",
+    E1: "WKing",
+    F1: "WBishop",
+    G1: "WNight",
+    H1: "WRook",
 
     A2: "Wpawn",
     B2: "Wpawn",
@@ -41,14 +41,14 @@ const dict_init_pieces_position = {
     G7: "Bpawn",
     H7: "Bpawn",
 
-    A8: "Brook",
-    B8: "Bknight",
-    C8: "Bbishop",
-    D8: "Bqueen",
-    E8: "Bking",
-    F8: "Bbishop",
-    G8: "Bknight",
-    H8: "Brook"  
+    A8: "BRook",
+    B8: "BNight",
+    C8: "BBishop",
+    D8: "BQueen",
+    E8: "BKing",
+    F8: "BBishop",
+    G8: "BNight",
+    H8: "BRook"  
 };
 
 function setBoard(color){
@@ -271,39 +271,39 @@ function drawPieces() {
 
         if (image.innerText.length !== 0) {
             switch (image.innerText){
-                case "Wrook":
-                    image.innerHTML = image.innerHTML + link_img_Wrook;
+                case "WRook":
+                    image.innerHTML = image.innerHTML + link_img_WRook;
                     break;
-                case "Wknight":
-                    image.innerHTML = image.innerHTML + link_img_Wknight;
+                case "WNight":
+                    image.innerHTML = image.innerHTML + link_img_WNight;
                     break;
-                case "Wbishop":
-                    image.innerHTML = image.innerHTML + link_img_Wbishop;
+                case "WBishop":
+                    image.innerHTML = image.innerHTML + link_img_WBishop;
                     break;
-                case "Wqueen":
-                    image.innerHTML = image.innerHTML + link_img_Wqueen;
+                case "WQueen":
+                    image.innerHTML = image.innerHTML + link_img_WQueen;
                     break;
-                case "Wking":
-                    image.innerHTML = image.innerHTML + link_img_Wking;
+                case "WKing":
+                    image.innerHTML = image.innerHTML + link_img_WKing;
                     break;
                 case "Wpawn":
                     image.innerHTML = image.innerHTML + link_img_Wpawn;
                     break;
 
-                case "Brook":
-                    image.innerHTML = image.innerHTML + link_img_Brook;
+                case "BRook":
+                    image.innerHTML = image.innerHTML + link_img_BRook;
                     break;
-                case "Bknight":
-                    image.innerHTML = image.innerHTML + link_img_Bknight;
+                case "BNight":
+                    image.innerHTML = image.innerHTML + link_img_BNight;
                     break;
-                case "Bbishop":
-                    image.innerHTML = image.innerHTML + link_img_Bbishop;
+                case "BBishop":
+                    image.innerHTML = image.innerHTML + link_img_BBishop;
                     break;
-                case "Bqueen":
-                    image.innerHTML = image.innerHTML + link_img_Bqueen;
+                case "BQueen":
+                    image.innerHTML = image.innerHTML + link_img_BQueen;
                     break;
-                case "Bking":
-                    image.innerHTML = image.innerHTML + link_img_Bking;
+                case "BKing":
+                    image.innerHTML = image.innerHTML + link_img_BKing;
                     break;
                 case "Bpawn":
                     image.innerHTML = image.innerHTML + link_img_Bpawn;

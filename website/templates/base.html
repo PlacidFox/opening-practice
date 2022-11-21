@@ -2,126 +2,165 @@
 <html lang="fr">
 
 <head>
-    <title>Page Web Script JS</title> 
+    <title>Chess Opening Trainer</title> 
     <script type="text/javascript" src="{{ url_for('static', filename='js/get_case_choice.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/draw_board.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/training_mode.js') }}"></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 
+<header>
+
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Chess Opening Trainer</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#">White training</a>
+              <a class="nav-link" href="#">Black training</a>
+              <a class="nav-link disabled" href="#">Repertoire Review</a>
+              <a class="nav-link disabled">Tactical Training</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+</header>  
+
 <body>
-    <h1 id="header">Chess Training App</h1>
+    <h3 id="header">Basic Board</h1>
     <p id="textp"></p>
     <input id="clickMe" type="button" value="Restart Pieces" onclick="init_pieces_position()" />
-    <input id="clickMe" type="button" value="Training Mode" onclick="training_test()" />
-    <input id="clickMe" type="button" value="Set White Board" onclick="training_test()" />
-    <input id="clickMe" type="button" value="Set Black Board" onclick="training_test()" />
+    <input id="clickMe" type="button" value="Training Mode" onclick="set_moves()" />
+    <input id="clickMe" type="button" value="Set White Board" onclick="setBoard('white')" />
+    <input id="clickMe" type="button" value="Set Black Board" onclick="setBoard('black')" />
 
-    <ul>
-        <div class="divv" id="row8">
-            <li class="notation not_lign" id="8">8</li>
-            <li class="square sq_white" id="A8"></li>
-            <li class="square sq_black" id="B8"></li>
-            <li class="square sq_white" id="C8"></li>
-            <li class="square sq_black" id="D8"></li>
-            <li class="square sq_white" id="E8"></li>
-            <li class="square sq_black" id="F8"></li>
-            <li class="square sq_white" id="G8"></li>
-            <li class="square sq_black" id="H8"></li>
-        </div>
-        <div class="divv" id="row7">
-            <li class="notation not_lign" id="7">7</li>
-            <li class="square sq_black" id="A7"></li>
-            <li class="square sq_white" id="B7"></li>
-            <li class="square sq_black" id="C7"></li>
-            <li class="square sq_white" id="D7"></li>
-            <li class="square sq_black" id="E7"></li>
-            <li class="square sq_white" id="F7"></li>
-            <li class="square sq_black" id="G7"></li>
-            <li class="square sq_white" id="H7"></li>
-        </div>
-        <div class="divv" id="row6">
-            <li class="notation not_lign" id="6">6</li>
-            <li class="square sq_white" id="A6"></li>
-            <li class="square sq_black" id="B6"></li>
-            <li class="square sq_white" id="C6"></li>
-            <li class="square sq_black" id="D6"></li>
-            <li class="square sq_white" id="E6"></li>
-            <li class="square sq_black" id="F6"></li>
-            <li class="square sq_white" id="G6"></li>
-            <li class="square sq_black" id="H6"></li>
-        </div>
-        <div class="divv" id="row5">
-            <li class="notation not_lign" id="5">5</li>
-            <li class="square sq_black" id="A5"></li>
-            <li class="square sq_white" id="B5"></li>
-            <li class="square sq_black" id="C5"></li>
-            <li class="square sq_white" id="D5"></li>
-            <li class="square sq_black" id="E5"></li>
-            <li class="square sq_white" id="F5"></li>
-            <li class="square sq_black" id="G5"></li>
-            <li class="square sq_white" id="H5"></li>
-        </div>
-        <div class="divv" id="row4">
-            <li class="notation not_lign" id="4">4</li>
-            <li class="square sq_white" id="A4"></li>
-            <li class="square sq_black" id="B4"></li>
-            <li class="square sq_white" id="C4"></li>
-            <li class="square sq_black" id="D4"></li>
-            <li class="square sq_white" id="E4"></li>
-            <li class="square sq_black" id="F4"></li>
-            <li class="square sq_white" id="G4"></li>
-            <li class="square sq_black" id="H4"></li>
-        </div>
-        <div class="divv" id="row3">
-            <li class="notation not_lign" id="3">3</li>
-            <li class="square sq_black" id="A3"></li>
-            <li class="square sq_white" id="B3"></li>
-            <li class="square sq_black" id="C3"></li>
-            <li class="square sq_white" id="D3"></li>
-            <li class="square sq_black" id="E3"></li>
-            <li class="square sq_white" id="F3"></li>
-            <li class="square sq_black" id="G3"></li>
-            <li class="square sq_white" id="H3"></li>
-        </div>
-        <div class="divv" id="row2">
-            <li class="notation not_lign" id="2">2</li>
-            <li class="square sq_white" id="A2"></li>
-            <li class="square sq_black" id="B2"></li>
-            <li class="square sq_white" id="C2"></li>
-            <li class="square sq_black" id="D2"></li>
-            <li class="square sq_white" id="E2"></li>
-            <li class="square sq_black" id="F2"></li>
-            <li class="square sq_white" id="G2"></li>
-            <li class="square sq_black" id="H2"></li>
-        </div>
-        <div class="divv" id="row1">
-            <li class="notation not_lign" id="1">1</li>
-            <li class="square sq_black" id="A1"></li>
-            <li class="square sq_white" id="B1"></li>
-            <li class="square sq_black" id="C1"></li>
-            <li class="square sq_white" id="D1"></li>
-            <li class="square sq_black" id="E1"></li>
-            <li class="square sq_white" id="F1"></li>
-            <li class="square sq_black" id="G1"></li>
-            <li class="square sq_white" id="H1"></li>
-        </div>
-        <div class="divv" id="row_notation_below">
-            <li class="notation not_angle   " id="0"></li>
-            <li class="notation not_col" id="A">A</li>
-            <li class="notation not_col" id="B">B</li>
-            <li class="notation not_col" id="C">C</li>
-            <li class="notation not_col" id="D">D</li>
-            <li class="notation not_col" id="E">E</li>
-            <li class="notation not_col" id="F">F</li>
-            <li class="notation not_col" id="G">G</li>
-            <li class="notation not_col" id="H">H</li>
-        </div>
-    </ul>
+    <div class="game-space">
 
+        <div class="moves-div">
+            <p id="moves-header">Liste des coups</p>
+            <div id="moves-list">
+                <table id="table-moves">
+      
+                </table>
+            </div>
+        </div>
+        <div class="board">
+            <ul class="board-layout">
+                <div class="divv" id="row8">
+                    <li class="li-notation notation not_side grid80" id="8"></li>
+                    <li class="li-board square sq_white grid81" id="A8"></li>
+                    <li class="li-board square sq_black grid82" id="B8"></li>
+                    <li class="li-board square sq_white grid83" id="C8"></li>
+                    <li class="li-board square sq_black grid84" id="D8"></li>
+                    <li class="li-board square sq_white grid85" id="E8"></li>
+                    <li class="li-board square sq_black grid86" id="F8"></li>
+                    <li class="li-board square sq_white grid87" id="G8"></li>
+                    <li class="li-board square sq_black grid88" id="H8"></li>
+                </div>
+                <div class="divv" id="row7">
+                    <li class="li-notation notation not_side grid70" id="7"></li>
+                    <li class="li-board square sq_black grid71" id="A7"></li>
+                    <li class="li-board square sq_white grid72" id="B7"></li>
+                    <li class="li-board square sq_black grid73" id="C7"></li>
+                    <li class="li-board square sq_white grid74" id="D7"></li>
+                    <li class="li-board square sq_black grid75" id="E7"></li>
+                    <li class="li-board square sq_white grid76" id="F7"></li>
+                    <li class="li-board square sq_black grid77" id="G7"></li>
+                    <li class="li-board square sq_white grid78" id="H7"></li>
+                </div>
+                <div class="divv" id="row6">
+                    <li class="li-notation notation not_side grid60" id="6"></li>
+                    <li class="li-board square sq_white grid61" id="A6"></li>
+                    <li class="li-board square sq_black grid62" id="B6"></li>
+                    <li class="li-board square sq_white grid63" id="C6"></li>
+                    <li class="li-board square sq_black grid64" id="D6"></li>
+                    <li class="li-board square sq_white grid65" id="E6"></li>
+                    <li class="li-board square sq_black grid66" id="F6"></li>
+                    <li class="li-board square sq_white grid67" id="G6"></li>
+                    <li class="li-board square sq_black grid68" id="H6"></li>
+                </div>
+                <div class="divv" id="row5">
+                    <li class="li-notation notation not_side grid50" id="5"></li>
+                    <li class="li-board square sq_black grid51" id="A5"></li>
+                    <li class="li-board square sq_white grid52" id="B5"></li>
+                    <li class="li-board square sq_black grid53" id="C5"></li>
+                    <li class="li-board square sq_white grid54" id="D5"></li>
+                    <li class="li-board square sq_black grid55" id="E5"></li>
+                    <li class="li-board square sq_white grid56" id="F5"></li>
+                    <li class="li-board square sq_black grid57" id="G5"></li>
+                    <li class="li-board square sq_white grid58" id="H5"></li>
+                </div>
+                <div class="divv" id="row4">
+                    <li class="li-notation notation not_side grid40" id="4"></li>
+                    <li class="li-board square sq_white grid41" id="A4"></li>
+                    <li class="li-board square sq_black grid42" id="B4"></li>
+                    <li class="li-board square sq_white grid43" id="C4"></li>
+                    <li class="li-board square sq_black grid44" id="D4"></li>
+                    <li class="li-board square sq_white grid45" id="E4"></li>
+                    <li class="li-board square sq_black grid46" id="F4"></li>
+                    <li class="li-board square sq_white grid47" id="G4"></li>
+                    <li class="li-board square sq_black grid48" id="H4"></li>
+                </div>
+                <div class="divv" id="row3">
+                    <li class="li-notation notation not_side grid30" id="3"></li>
+                    <li class="li-board square sq_black grid31" id="A3"></li>
+                    <li class="li-board square sq_white grid32" id="B3"></li>
+                    <li class="li-board square sq_black grid33" id="C3"></li>
+                    <li class="li-board square sq_white grid34" id="D3"></li>
+                    <li class="li-board square sq_black grid35" id="E3"></li>
+                    <li class="li-board square sq_white grid36" id="F3"></li>
+                    <li class="li-board square sq_black grid37" id="G3"></li>
+                    <li class="li-board square sq_white grid38" id="H3"></li>
+                </div>
+                <div class="divv" id="row2">
+                    <li class="li-notation notation not_side grid20" id="2"></li>
+                    <li class="li-board square sq_white grid21" id="A2"></li>
+                    <li class="li-board square sq_black grid22" id="B2"></li>
+                    <li class="li-board square sq_white grid23" id="C2"></li>
+                    <li class="li-board square sq_black grid24" id="D2"></li>
+                    <li class="li-board square sq_white grid25" id="E2"></li>
+                    <li class="li-board square sq_black grid26" id="F2"></li>
+                    <li class="li-board square sq_white grid27" id="G2"></li>
+                    <li class="li-board square sq_black grid28" id="H2"></li>
+                </div>
+                <div class="divv" id="row1">
+                    <li class="li-notation notation not_side grid10" id="1"></li>
+                    <li class="li-board square sq_black grid11" id="A1"></li>
+                    <li class="li-board square sq_white grid12" id="B1"></li>
+                    <li class="li-board square sq_black grid13" id="C1"></li>
+                    <li class="li-board square sq_white grid14" id="D1"></li>
+                    <li class="li-board square sq_black grid15" id="E1"></li>
+                    <li class="li-board square sq_white grid16" id="F1"></li>
+                    <li class="li-board square sq_black grid17" id="G1"></li>
+                    <li class="li-board square sq_white grid18" id="H1"></li>
+                </div>
+                <div class="divv" id="row_notation_below">
+                    <li class="li-notation notation not_angle grid00   " id="0"></li>
+                    <li class="li-notation notation not_below grid01" id="A"></li>
+                    <li class="li-notation notation not_below grid02" id="B"></li>
+                    <li class="li-notation notation not_below grid03" id="C"></li>
+                    <li class="li-notation notation not_below grid04" id="D"></li>
+                    <li class="li-notation notation not_below grid05" id="E"></li>
+                    <li class="li-notation notation not_below grid06" id="F"></li>
+                    <li class="li-notation notation not_below grid07" id="G"></li>
+                    <li class="li-notation notation not_below grid08" id="H"></li>
+                </div>
+            </ul>
+        </div>
+        <div class="empty-moves-div">
+
+        </div>
+
+    </div>
     <script>
     listen_choice()
-    init_pieces_position()
     </script>
 
 </body>
