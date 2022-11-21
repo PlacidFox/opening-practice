@@ -16,11 +16,13 @@ Current state :
 - show all moves at the side (only if start at 1 and white)
 
 Next-Steps :
-- play vs JSON database
+- TEST : play vs JSON database
 - put board with fen (start black and not at move 1 ?)
 
 To do :
+- input chess rules and moves with class
 - legal moves ? or not necessary ?
+- CASTLE & en passant
 - show check ?
 - show moves if not start at 1. & white
 
