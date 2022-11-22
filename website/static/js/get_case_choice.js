@@ -6,11 +6,11 @@ const color_ref = {
 const color_black = "maroon";
 const color_white = "lightgoldenrodyellow";// to put in constantes fetch from CSS at init ? or const also get by the css file ? with SASS ?
 
-var nb_moves = 0;
+let nb_moves = 0;
 
 function get_choice(color_id, move_from, move_to){
 
-    var dict_choice = {
+    let dict_choice = {
         color: color_ref[color_id],
         move_from: move_from,
         move_to: move_to
@@ -112,7 +112,7 @@ function move_pieces (init_selected_sq_id, dest_selected_sq_id){
 function set_list_moves (init_selected_sq_id, dest_selected_sq_id, color_to_play){
 
     //put into fct get pieces ?
-    var pieces_moved = document.getElementById(init_selected_sq_id).innerHTML.charAt(1);
+    let pieces_moved = document.getElementById(init_selected_sq_id).innerHTML.charAt(1);
     if (document.getElementById(dest_selected_sq_id).innerHTML !== ""){
         if (pieces_moved == "p"){
             pieces_moved = init_selected_sq_id.charAt(0).toLowerCase() + "x"; 
@@ -127,28 +127,28 @@ function set_list_moves (init_selected_sq_id, dest_selected_sq_id, color_to_play
 
     if (color_to_play == 1){
         nb_moves += 1;
-        var tbodyRef = document.getElementById('table-moves');
-        var newRow = tbodyRef.insertRow();
+        let tbodyRef = document.getElementById('table-moves');
+        let newRow = tbodyRef.insertRow();
         newRow.id = "row-move-" + nb_moves;
-        var newCell1 = newRow.insertCell();
+        let newCell1 = newRow.insertCell();
         newCell1.id ='row-move-number'
-        var newCell2 = newRow.insertCell();
+        let newCell2 = newRow.insertCell();
         newCell2.id ='row-move-detail'
-        var newCell3 = newRow.insertCell();
+        let newCell3 = newRow.insertCell();
         newCell3.id ='row-move-detail'
 
 
-        var newText1 = document.createTextNode(nb_moves + ".");
-        var newText2 = document.createTextNode(pieces_moved+dest_selected_sq_id.toLowerCase());
+        let newText1 = document.createTextNode(nb_moves + ".");
+        let newText2 = document.createTextNode(pieces_moved+dest_selected_sq_id.toLowerCase());
         newCell1.appendChild(newText1);
         newCell2.appendChild(newText2);
     }
 
     if (color_to_play == 2){
-        var Row = document.getElementById("row-move-" + nb_moves);
-        var newCell3 = Row.lastChild
+        let Row = document.getElementById("row-move-" + nb_moves);
+        let newCell3 = Row.lastChild
 
-        var newText3 = document.createTextNode(pieces_moved+dest_selected_sq_id.toLowerCase());
+        let newText3 = document.createTextNode(pieces_moved+dest_selected_sq_id.toLowerCase());
         newCell3.appendChild(newText3);
     }
 
