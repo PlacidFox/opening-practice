@@ -16,13 +16,13 @@
 
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Chess Opening Trainer</a>
+          <a class="navbar-brand" href="/">Chess Opening Trainer</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <div class="navbar-nav">
-              <a class="nav-link" href="/training-white">White training</a>
+              <a class="nav-link active"  href="#">White training</a>
               <a class="nav-link" href="#">Black training</a>
               <a class="nav-link disabled" href="#">Repertoire Review</a>
               <a class="nav-link disabled">Tactical Training</a>
@@ -36,8 +36,8 @@
 <body>
     <h3 id="header">Basic Board</h1>
     <p id="textp"></p>
+    <input id="clickMe" type="button" value="Training Mode" onclick='training_test()' />
     <input id="clickMe" type="button" value="Set White Board" onclick="setBoard('white')" />
-    <input id="clickMe" type="button" value="Set Black Board" onclick="setBoard('black')" />
 
     <div class="game-space">
 
@@ -153,11 +153,18 @@
             </ul>
         </div>
         <div class="empty-moves-div">
-
+            <p id="moves-header-TEMPO"></p>
+            <div id="moves-list">
+                <table id="table-moves">
+      
+                </table>
+            </div>
         </div>
 
     </div>
     <script type="text/javascript">
+        var data_json = JSON.parse('{{ data_json | tojson | safe}}');
+        fetch_json(data_json);
         listen_choice();
     </script>
 
