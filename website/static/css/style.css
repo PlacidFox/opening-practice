@@ -28,6 +28,11 @@
 
 }
 
+#text_training_status, #text_training_opening{
+    font-weight: bold;
+    text-align: center;
+}
+
 
 .game-space {
     display: flex;

@@ -14,10 +14,13 @@ Current state :
 - moves pieces & delete captured pieces
 - switch side
 - show all moves at the side (only if start at 1 and white)
+- work against JSON DB first game in the DB
 
 Next-Steps :
-- TEST : play vs JSON database
+- play vs RANDOM JSON database
 - put board with fen (start black and not at move 1 ?)
+- when Death Match - stop the game
+- //fail_safe  & deach_match to put in a ENUM ?
 
 To do :
 - input chess rules and moves with class
@@ -25,15 +28,18 @@ To do :
 - CASTLE & en passant
 - show check ?
 - show moves if not start at 1. & white
+- clean FCT Fail Safe vs Deatch Match
 
 Clock for time test
 
 Get Better : 
+- add possibilities of sidelines in prep
 #split uci moves into from_coordinates et to_coordinates - #COLOR STILL MANUEL IN CODE - TO DO BETTER - AND GET MOVE NUMBER IF BLACK START ?
 
 
 Comments : 
 - only work with game start at init board
+- only work if a single choice as a given opponent move
 
 
 

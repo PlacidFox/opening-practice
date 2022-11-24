@@ -36,9 +36,12 @@
 <body>
     <h3 id="header">Basic Board</h1>
     <p id="textp"></p>
-    <input id="clickMe" type="button" value="Training Mode" onclick='training_test()' />
-    <input id="clickMe" type="button" value="Set White Board" onclick="setBoard('white')" />
-
+    <input id="clickMe" type="button" value="Training Mode" onclick='training_white()' />
+    <input id="clickMe" type="button" value="Launch Training - Fail Safe" onclick='launch_training_fail_safe()' />
+    <input id="clickMe" type="button" value="Launch Training - DeathMatch" onclick='launch_training_death_match()' />
+    <p id="textp"></p>
+    <p id="text_training_status">WAIT TRAINING LAUNCH</p>
+    <p id="text_training_opening">...</p>
     <div class="game-space">
 
         <div class="moves-div">
@@ -165,7 +168,6 @@
     <script type="text/javascript">
         var data_json = JSON.parse('{{ data_json | tojson | safe}}');
         fetch_json(data_json);
-        listen_choice();
     </script>
 
 </body>

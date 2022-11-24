@@ -16,7 +16,6 @@ function get_choice(color_id, move_from, move_to){
         move_to: move_to
     };
 
-    console.log(dict_choice)
     return dict_choice;
 }
 
@@ -100,11 +99,11 @@ function show_selected_sq(init_selected_sq_id, dest_selected_sq_id){
     }
 }
 
-function move_pieces (init_selected_sq_id, dest_selected_sq_id){
+function move_pieces (made_init_selected_sq_id, made_dest_selected_sq_id){
 
-    document.getElementById(dest_selected_sq_id).innerHTML = document.getElementById(init_selected_sq_id).innerHTML
+    document.getElementById(made_dest_selected_sq_id).innerHTML = document.getElementById(made_init_selected_sq_id).innerHTML
 
-    document.getElementById(init_selected_sq_id).innerHTML = ""
+    document.getElementById(made_init_selected_sq_id).innerHTML = ""
 
 
 }
