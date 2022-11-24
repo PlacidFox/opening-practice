@@ -17,6 +17,7 @@ Current state :
 - work against JSON DB first game in the DB
 
 Next-Steps :
+- practice mode for black ?
 - play vs RANDOM JSON database
 - put board with fen (start black and not at move 1 ?)
 - when Death Match - stop the game
