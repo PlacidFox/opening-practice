@@ -19,16 +19,18 @@ Current state :
 Next-Steps :
 - when Death Match - stop the game
 - click restart & relaunch test 
-- //fail_safe  & deach_match to put in a ENUM ?
+- fail_safe  & deach_match to put in a ENUM ?
 - Castle & en passant
 
 To do :
 - input chess rules and moves with class
+- deal with sidelines
 - put board with fen (start black and not at move 1 ?)
 - legal moves ? or not necessary ?
 - show check ?
 - show moves if not start at 1. & white
 - replay mode to show each preparation play automaticaly
+- clean code & interface
 
 
 
