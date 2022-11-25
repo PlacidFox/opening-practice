@@ -14,22 +14,24 @@ Current state :
 - moves pieces & delete captured pieces
 - switch side
 - show all moves at the side (only if start at 1 and white)
-- work against JSON DB first game in the DB
+- random select of a lign to be tested with (no sidelines of the momment)
 
 Next-Steps :
-- practice mode for black ?
-- play vs RANDOM JSON database
-- put board with fen (start black and not at move 1 ?)
 - when Death Match - stop the game
+- click restart & relaunch test 
 - //fail_safe  & deach_match to put in a ENUM ?
+- Castle & en passant
 
 To do :
 - input chess rules and moves with class
+- put board with fen (start black and not at move 1 ?)
 - legal moves ? or not necessary ?
-- CASTLE & en passant
 - show check ?
 - show moves if not start at 1. & white
-- clean FCT Fail Safe vs Deatch Match
+- replay mode to show each preparation play automaticaly
+
+
+
 
 Clock for time test
 
