@@ -153,8 +153,14 @@ function listen_choice_training_white(type_training){ // Fail Safe or Death Matc
 
                     if (init_selected_sq_id == move_white["from_square"].toUpperCase() && (dest_selected_sq_id == move_white["to_square"].toUpperCase()) ){
 
-                        set_list_moves(init_selected_sq_id, dest_selected_sq_id, color_to_play);
-                        move_pieces(init_selected_sq_id, dest_selected_sq_id);
+                        if (checkIfCastle(init_selected_sq_id, dest_selected_sq_id)){
+                            set_list_moves_castle(init_selected_sq_id, dest_selected_sq_id, color_to_play);
+                            move_pieces_castle(init_selected_sq_id, dest_selected_sq_id);
+                        }
+                        else{
+                            set_list_moves(init_selected_sq_id, dest_selected_sq_id, color_to_play);
+                            move_pieces(init_selected_sq_id, dest_selected_sq_id);
+                        }
 
                         init_selected_sq_id = null;
                         dest_selected_sq_id = null;
@@ -236,8 +242,14 @@ function listen_choice_training_black(type_training){ // Fail Safe or Death Matc
 
                     if (init_selected_sq_id == move_black["from_square"].toUpperCase() && (dest_selected_sq_id == move_black["to_square"].toUpperCase()) ){
 
-                        set_list_moves(init_selected_sq_id, dest_selected_sq_id, color_to_play);
-                        move_pieces(init_selected_sq_id, dest_selected_sq_id);
+                        if (checkIfCastle(init_selected_sq_id, dest_selected_sq_id)){
+                            set_list_moves_castle(init_selected_sq_id, dest_selected_sq_id, color_to_play);
+                            move_pieces_castle(init_selected_sq_id, dest_selected_sq_id);
+                        }
+                        else{
+                            set_list_moves(init_selected_sq_id, dest_selected_sq_id, color_to_play);
+                            move_pieces(init_selected_sq_id, dest_selected_sq_id);
+                        }
 
                         init_selected_sq_id = null;
                         dest_selected_sq_id = null;

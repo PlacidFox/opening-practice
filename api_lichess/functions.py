@@ -7,19 +7,24 @@ from enum import Enum, auto
 class Colors(Enum):
     WHITE = auto()
     BLACK = auto()
+    TEST_WHITE = auto()
 
 
 URLS_LICHESS = {Colors.WHITE: "https://lichess.org/api/study/pVxuFeun.pgn",
-              Colors.BLACK: "https://lichess.org/api/study/Bdv5DTTo.pgn"}
+              Colors.BLACK: "https://lichess.org/api/study/Bdv5DTTo.pgn",
+              Colors.TEST_WHITE: "https://lichess.org/api/study/4wbQcMAw.pgn"}
 
 JSON_FILES = {Colors.WHITE: "./data/json_opening_white.json",
-              Colors.BLACK: "./data/json_opening_black.json"}
+              Colors.BLACK: "./data/json_opening_black.json",
+              Colors.TEST_WHITE: "./data/TEST_JSON.json"}
 
 NAME_PGN = {Colors.WHITE: "./data/pgn_opening_white.pgn",
-            Colors.BLACK: "./data/pgn_opening_black.pgn"}
+            Colors.BLACK: "./data/pgn_opening_black.pgn",
+            Colors.TEST_WHITE: "./data/TEST_PGN.pgn"}
 
 COLORS_NAME = {Colors.WHITE: "White",
-               Colors.BLACK: "Black"}
+               Colors.BLACK: "Black",
+               Colors.TEST_WHITE: "White"}
 
 
 #download 2 pgn files for both color opening book
@@ -172,6 +177,10 @@ def moves_to_dict(games, color):
                 dict_moves={"color": COLORS_NAME[Colors.BLACK], # a faire définition couleur selon le choix de fichier ? 
                     "games": []
         }   
+    elif color == Colors.TEST_WHITE:
+                dict_moves={"color": COLORS_NAME[Colors.TEST_WHITE], # a faire définition couleur selon le choix de fichier ? 
+                    "games": []
+        }  
     
     for game in games:
         
@@ -200,6 +209,10 @@ def save_games_json(dict_games, color):
             
     if color == Colors.BLACK:       
         with open(JSON_FILES[Colors.BLACK], "w") as outfile:
+            json.dump(dict_games, outfile, indent=2)
+            
+    if color == Colors.TEST_WHITE:       
+        with open(JSON_FILES[Colors.TEST_WHITE], "w") as outfile:
             json.dump(dict_games, outfile, indent=2)
 
 

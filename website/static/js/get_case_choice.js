@@ -46,8 +46,14 @@ function listen_choice(){
                     show_selected_sq(init_selected_sq_id, dest_selected_sq_id);
                     get_choice(color_to_play, init_selected_sq_id, dest_selected_sq_id);
 
-                    set_list_moves(init_selected_sq_id, dest_selected_sq_id, color_to_play);
-                    move_pieces(init_selected_sq_id, dest_selected_sq_id);
+                    if (checkIfCastle(init_selected_sq_id, dest_selected_sq_id)){
+                        set_list_moves_castle(init_selected_sq_id, dest_selected_sq_id, color_to_play);
+                        move_pieces_castle(init_selected_sq_id, dest_selected_sq_id);
+                    }
+                    else{
+                        set_list_moves(init_selected_sq_id, dest_selected_sq_id, color_to_play);
+                        move_pieces(init_selected_sq_id, dest_selected_sq_id);
+                    }
 
                     init_selected_sq_id = null;
                     dest_selected_sq_id = null;
@@ -87,6 +93,22 @@ function clear_selected_sq(){
 
 }
 
+function checkIfCastle(init_selected_sq_id, dest_selected_sq_id){
+
+    if (document.getElementById(init_selected_sq_id).innerHTML.slice(0, 5) == "WKing" && init_selected_sq_id == "E1"){
+        if (dest_selected_sq_id == "G1" || dest_selected_sq_id == "C1"){
+            return true  
+        }       
+    }
+
+    if (document.getElementById(init_selected_sq_id).innerHTML.slice(0, 5) == "BKing" && init_selected_sq_id == "E8"){
+        if (dest_selected_sq_id == "G8" || dest_selected_sq_id == "C8"){
+            return true  
+        }       
+    }
+
+}
+
 function show_selected_sq(init_selected_sq_id, dest_selected_sq_id){
 
     clear_selected_sq() // necessary every time ?
@@ -107,6 +129,37 @@ function move_pieces (made_init_selected_sq_id, made_dest_selected_sq_id){
 
 
 }
+
+function move_pieces_castle(made_init_selected_sq_id, made_dest_selected_sq_id){
+
+    document.getElementById(made_dest_selected_sq_id).innerHTML = document.getElementById(made_init_selected_sq_id).innerHTML
+    document.getElementById(made_init_selected_sq_id).innerHTML = ""
+
+    if (made_init_selected_sq_id == "E1"){//For White Castle
+        if (made_dest_selected_sq_id == "G1"){///0-0
+            move_pieces("H1", "F1")
+        }
+
+        if (made_dest_selected_sq_id == "C1"){///0-0-0
+            move_pieces("A1", "D1")
+        }
+
+    }
+
+    if (made_init_selected_sq_id == "E8"){//For Black Castle
+        if (made_dest_selected_sq_id == "G8"){///0-0
+            move_pieces("H8", "F8")
+        }
+
+        if (made_dest_selected_sq_id == "C8"){///0-0-0
+            move_pieces("A8", "D8")
+        }
+        
+    }
+
+}
+
+
 
 function set_list_moves (init_selected_sq_id, dest_selected_sq_id, color_to_play){
 
@@ -152,3 +205,50 @@ function set_list_moves (init_selected_sq_id, dest_selected_sq_id, color_to_play
     }
 
 }
+
+
+function set_list_moves_castle (init_selected_sq_id, dest_selected_sq_id, color_to_play){
+
+
+    if (color_to_play == 1){
+        nb_moves += 1;
+        let tbodyRef = document.getElementById('table-moves');
+        let newRow = tbodyRef.insertRow();
+        newRow.id = "row-move-" + nb_moves;
+        let newCell1 = newRow.insertCell();
+        newCell1.id ='row-move-number'
+        let newCell2 = newRow.insertCell();
+        newCell2.id ='row-move-detail'
+        let newCell3 = newRow.insertCell();
+        newCell3.id ='row-move-detail'
+
+        let newText2 = ""
+        let newText1 = document.createTextNode(nb_moves + ".");
+        if (dest_selected_sq_id == "G1"){
+            newText2 = document.createTextNode("0-0");
+        }
+        if (dest_selected_sq_id == "C1"){
+            newText2 = document.createTextNode("0-0-0");
+        }
+
+        newCell1.appendChild(newText1);
+        newCell2.appendChild(newText2);
+    }
+
+    if (color_to_play == 2){
+        let Row = document.getElementById("row-move-" + nb_moves);
+        let newCell3 = Row.lastChild
+
+        let newText3 = ""
+        if (dest_selected_sq_id == "G8"){
+            newText3 = document.createTextNode("0-0");
+        }
+        if (dest_selected_sq_id == "C8"){
+            newText3 = document.createTextNode("0-0-0");
+        }
+
+        newCell3.appendChild(newText3);
+    }
+
+}
+
