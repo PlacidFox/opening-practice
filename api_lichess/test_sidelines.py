@@ -26,10 +26,58 @@ for game in games:
 """ 
 
 
-for game in games:
-    #cible : ce format là : 
-    print(get_only_moves(test_split_game_moves(game)))
+def getsidelinesNumber(game):
+    nb_variation = 1
+    end_move = False
+       
+    while not end_move:
+        game = game.next()
+        
+        print(str(game).split(" ")[1])
+                
+        if len(game.variations) > 1:
+            nb_variation += 1
+            
+            game_2 = game.variations[1]
+                        
+            while not end_move:
+                game_2 = game_2.next()        
+                print(str(game_2).split(" ")[1])
+                end_move = game_2.is_end()
+                       
+        end_move = game.is_end()
+
+    print (nb_variation)
     
+   
+def getsidelinesNumber(game):
+    nb_variation = 1
+    end_move = False
+       
+    while not end_move:
+        game = game.next()
+        
+        print(str(game).split(" ")[1])
+                
+        if len(game.variations) > 1:
+            nb_variation += 1
+            
+            game_2 = game.variations[1]
+                        
+            while not end_move:
+                game_2 = game_2.next()        
+                print(str(game_2).split(" ")[1])
+                end_move = game_2.is_end()
+                       
+        end_move = game.is_end()
+
+    print (nb_variation)
+
+    
+
+    
+    
+def split_game(game):
     tab_cible = []
 
     for i in range (10):
@@ -47,7 +95,7 @@ for game in games:
             move = str(game).split(" ")[1]
             tab_cible.append(move)
             print(game)
-               
-#ok récup move si une variante    
-print(tab_cible)
 
+for game in games:
+    #split_game(game)
+    getsidelinesNumber(game)
