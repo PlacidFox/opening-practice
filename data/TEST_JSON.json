@@ -84,6 +84,291 @@
           "to_square": "a4"
         }
       ]
+    },
+    {
+      "name": "TestAPI: TestSidelines",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "a6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Ba4"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "a7",
+          "to_square": "a6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "b5",
+          "to_square": "a4"
+        }
+      ]
+    },
+    {
+      "name": "TestAPI: TestSidelines",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "a6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Ba4"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "a7",
+          "to_square": "a6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "b5",
+          "to_square": "a4"
+        }
+      ]
+    },
+    {
+      "name": "TestAPI: TestSidelines",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "a6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Ba4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nd4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "c6"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "a7",
+          "to_square": "a6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "b5",
+          "to_square": "a4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        }
+      ]
     }
   ]
 }

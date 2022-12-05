@@ -11,3 +11,42 @@
 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 (3... Nf6 4. d4) 4. Ba4 *
 
 
+[Event "TestAPI: TestSidelines"]
+[Site "https://lichess.org/study/4wbQcMAw/qfcILtVj"]
+[Result "*"]
+[Annotator "https://lichess.org/@/Valcraft021"]
+[UTCDate "2022.12.05"]
+[UTCTime "20:19:26"]
+[Variant "Standard"]
+[ECO "C70"]
+[Opening "Ruy Lopez: Morphy Defense"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 (3... Nf6 4. d4)  (3... Nd4 4. Nxd4) 4. Ba4 *
+
+
+[Event "TestAPI: TestSidelines"]
+[Site "https://lichess.org/study/4wbQcMAw/qfcILtVj"]
+[Result "*"]
+[Annotator "https://lichess.org/@/Valcraft021"]
+[UTCDate "2022.12.05"]
+[UTCTime "20:26:32"]
+[Variant "Standard"]
+[ECO "C70"]
+[Opening "Ruy Lopez: Morphy Defense"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 (3... Nf6 4. d4 Nxd4 (4... b6))  (3... Nd4 4. Nxd4) 4. Ba4 *
+
+
+[Event "TestAPI: TestSidelines"]
+[Site "https://lichess.org/study/4wbQcMAw/qfcILtVj"]
+[Result "*"]
+[Annotator "https://lichess.org/@/Valcraft021"]
+[UTCDate "2022.12.05"]
+[UTCTime "21:11:43"]
+[Variant "Standard"]
+[ECO "C70"]
+[Opening "Ruy Lopez: Bird's Defense Deferred"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 (3... Nf6 4. d4)  (3... Nd4 4. Nxd4) 4. Ba4 Nd4 5. c3 c6 (5... b6 6. c4) *
+
+
