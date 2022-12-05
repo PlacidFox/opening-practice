@@ -51,14 +51,14 @@ def variationcheckloop(game_tempo_loop):
 def getsidelines(game):# work for only 1 sideline and only one time, no sideline later on
     variations_moves = [[]]
     end_move = False
-       
+           
     while not end_move:
         game = game.next()
-        
+             
         variations_moves[0].append(str(game).split(" ")[1])
                 
         if len(game.variations) > 1:
-
+                     
             for index in range(1, len(game.variations)):
                 end_move = False
                 
@@ -71,19 +71,36 @@ def getsidelines(game):# work for only 1 sideline and only one time, no sideline
                 variations_moves[index].append(str(game_variation).split(" ")[1])
                             
                 while not end_move:
-                    game_variation = game_variation.next()        
+                    game_variation = game_variation.next()  
                     variations_moves[index].append(str(game_variation).split(" ")[1])
-                    print(str(game_variation).split(" ")[1])
                     end_move = game_variation.is_end()
-            
-        end_move = game.is_end()
+        
+
+    end_move = game.is_end()
 
     print (variations_moves)
 
-   
+# to get each node number with a variation
+def sidelines_nodes(game):
+    sidelines_nodes = []
+    nb_move = 1
+    
+    end_move = False
+    
+    while not end_move:
+        game = game.next()
+        if len(game.variations) > 1:
+            sidelines_nodes.append([nb_move, len(game.variations) - 1])  # get node number with a sideline (after) and the number of sidelines
+
+        nb_move += 1
+        end_move = game.is_end()
+        
+    print(sidelines_nodes)
 
 
-getsidelines(games[3])
+getsidelines(games[2])
+sidelines_nodes(games[2])
+sidelines_nodes(games[3])
 
 """
 for game in games:
