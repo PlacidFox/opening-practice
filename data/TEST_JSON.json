@@ -369,6 +369,328 @@
           "to_square": "c6"
         }
       ]
+    },
+    {
+      "name": "TestAPI: TestSidelines",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "a6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Ba4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nd4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "c6"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "a7",
+          "to_square": "a6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "b5",
+          "to_square": "a4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        }
+      ]
+    },
+    {
+      "name": "TestAPI: Caro-Kann (avance) - Var. Botvinnik",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nxd4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Bd3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "Nxc6"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "bxc6"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "move": "O-O"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "move": "Ne7"
+        },
+        {
+          "move_number": 9,
+          "color": "White",
+          "move": "Re1"
+        },
+        {
+          "move_number": 9,
+          "color": "Black",
+          "move": "Qc7"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "f3",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "d3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "d4",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "b7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "e7"
+        },
+        {
+          "move_number": 9,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "e1"
+        },
+        {
+          "move_number": 9,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "c7"
+        }
+      ]
     }
   ]
 }

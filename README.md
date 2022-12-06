@@ -17,11 +17,12 @@ Current state :
 - random select of a lign to be tested with (no sidelines of the momment)
 
 Next-Steps :
+- Check complxe sidelines OK et put in main FCT
+
 - when Death Match - stop the game
 - click restart & relaunch test 
 - fail_safe  & deach_match to put in a ENUM ?
-- Sidelines ? (then delet TEST_WHITE) - OK tab si 1 sideline, to to if many sideline
-- dict 1 par PGN avec plusieurs list de moves ? ou 1 dict par variantes ?
+- poids plus faible pour les sous variantes dans le random variatne ?
 
 
 To do :
