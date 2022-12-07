@@ -7,24 +7,19 @@ from enum import Enum, auto
 class Colors(Enum):
     WHITE = auto()
     BLACK = auto()
-    TEST_WHITE = auto()
 
 
 URLS_LICHESS = {Colors.WHITE: "https://lichess.org/api/study/pVxuFeun.pgn",
-              Colors.BLACK: "https://lichess.org/api/study/Bdv5DTTo.pgn",
-              Colors.TEST_WHITE: "https://lichess.org/api/study/4wbQcMAw.pgn"}
+              Colors.BLACK: "https://lichess.org/api/study/Bdv5DTTo.pgn"}
 
 JSON_FILES = {Colors.WHITE: "./data/json_opening_white.json",
-              Colors.BLACK: "./data/json_opening_black.json",
-              Colors.TEST_WHITE: "./data/TEST_JSON.json"}
+              Colors.BLACK: "./data/json_opening_black.json"}
 
 NAME_PGN = {Colors.WHITE: "./data/pgn_opening_white.pgn",
-            Colors.BLACK: "./data/pgn_opening_black.pgn",
-            Colors.TEST_WHITE: "./data/TEST_PGN.pgn"}
+            Colors.BLACK: "./data/pgn_opening_black.pgn"}
 
 COLORS_NAME = {Colors.WHITE: "White",
-               Colors.BLACK: "Black",
-               Colors.TEST_WHITE: "White"}
+               Colors.BLACK: "Black"}
 
 
 #download 2 pgn files for both color opening book
@@ -87,6 +82,50 @@ def get_only_moves(game_moves):
                 tab_only_moves.append(game_moves[i])
               
         return (tab_only_moves)
+    
+# get a list off all lines
+def getsidelines(game):
+    variations_moves = [[]]
+    end_move = False
+           
+    while not end_move:
+        game = game.next()
+             
+        variations_moves[0].append(str(game).split(" ")[1])
+        end_move = game.is_end()
+                    
+        if len(game.variations) > 1:
+            for index in range(1, len(game.variations)):
+                addsublines(game.variations[index], variations_moves[0], variations_moves)    
+        
+        end_move = game.is_end()
+
+    return (variations_moves)
+
+# sublines loop
+def addsublines(game_variation, variation_mainline, variations_moves):
+                        
+    end_move_variation = False   
+               
+    variations_moves.append([])
+    current_variation_index = len(variations_moves) - 1 
+    for move in variation_mainline:
+        variations_moves[current_variation_index].append(move)
+                
+    variations_moves[current_variation_index].append(str(game_variation).split(" ")[1])
+    end_move_variation = game_variation.is_end()
+                        
+    while not end_move_variation:
+        game_variation = game_variation.next()  
+        variations_moves[current_variation_index].append(str(game_variation).split(" ")[1])
+        
+        if len(game_variation.variations) > 1:
+            for index in range(1, len(game_variation.variations)):
+                addsublines(game_variation.variations[index], variations_moves[current_variation_index], variations_moves)    
+                                       
+        
+        end_move_variation = game_variation.is_end()    
+
     
 #make a dict from pgn moves  - #COLOR STILL MANUEL IN CODE - TO DO BETTER - AND GET MOVE NUMBER IF BLACK START ?
 def dict_pgn_moves(tab_only_moves):
@@ -177,25 +216,26 @@ def moves_to_dict(games, color):
                 dict_moves={"color": COLORS_NAME[Colors.BLACK], # a faire définition couleur selon le choix de fichier ? 
                     "games": []
         }   
-    elif color == Colors.TEST_WHITE:
-                dict_moves={"color": COLORS_NAME[Colors.TEST_WHITE], # a faire définition couleur selon le choix de fichier ? 
-                    "games": []
-        }  
     
     for game in games:
         
-        game_moves = split_game_moves(game)
-        tab_only_moves = get_only_moves(game_moves)
-        dict_pgn = dict_pgn_moves(tab_only_moves)
-                
-        tab_uci_moves = moves_to_uci_format(tab_only_moves)
-        dict_uci = dict_uci_moves(tab_uci_moves)
+        #game_moves = split_game_moves(game)
+        #tab_only_moves = get_only_moves(game_moves)
         
-        dict_game = {"name": game.headers["Event"],      
-                      "moves_pgn": dict_pgn,
-                      "moves_uci": dict_uci
-        }
-        dict_moves["games"].append(dict_game)
+        list_game_lines = getsidelines(game)
+        
+        for game_lines in list_game_lines:
+                
+            dict_pgn = dict_pgn_moves(game_lines)
+                    
+            tab_uci_moves = moves_to_uci_format(game_lines)
+            dict_uci = dict_uci_moves(tab_uci_moves)
+            
+            dict_game = {"name": game.headers["Event"],      
+                        "moves_pgn": dict_pgn,
+                        "moves_uci": dict_uci
+            }
+            dict_moves["games"].append(dict_game)
           
     return dict_moves
 
@@ -211,8 +251,5 @@ def save_games_json(dict_games, color):
         with open(JSON_FILES[Colors.BLACK], "w") as outfile:
             json.dump(dict_games, outfile, indent=2)
             
-    if color == Colors.TEST_WHITE:       
-        with open(JSON_FILES[Colors.TEST_WHITE], "w") as outfile:
-            json.dump(dict_games, outfile, indent=2)
 
 

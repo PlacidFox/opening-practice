@@ -7,7 +7,6 @@ from api_lichess.functions import JSON_FILES, Colors
 
 JSON_PATH_WHITE = JSON_FILES[Colors.WHITE]
 JSON_PATH_BLACK = JSON_FILES[Colors.BLACK]
-JSON_PATH_TEST_WHITE = JSON_FILES[Colors.TEST_WHITE]
 
 views = Blueprint("views", __name__)
 
@@ -19,8 +18,8 @@ def home():
 @views.route("/training-white")
 def trainingwhite():
 
-    if os.path.exists(JSON_PATH_TEST_WHITE):
-        with open(JSON_PATH_TEST_WHITE, "r") as jsonFile:
+    if os.path.exists(JSON_PATH_WHITE):
+        with open(JSON_PATH_WHITE, "r") as jsonFile:
             data_json = json.load(jsonFile)        
             
             
