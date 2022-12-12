@@ -15,13 +15,18 @@
     place-items: center;
 }
 
-#clickMe{
+#clickMe, #checkBox{
     display: grid;
     grid-template-columns: 1fr;
     margin-left: auto;
     margin-right: auto;
     place-items: center;
 }
+
+#checkBox{
+    margin-top: 10px;
+}
+
 
 .nav-link{
     color: white;
@@ -149,3 +154,5 @@ li.li-notation {
     margin-right: auto;
     place-items: center;
 }
+
+

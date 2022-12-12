@@ -1,65 +1,61 @@
-[Event "ChessRepertoire - White: E4 - vs Caro-Kann"]
-[Site "https://lichess.org/study/pVxuFeun/SobhxWYw"]
+[Event "White Repertoire: Ruy Lopez"]
+[Site "https://lichess.org/study/y5qD26Vd/vEtgpcvs"]
+[Date "2022.09.15"]
+[White "Espagnole"]
 [Result "*"]
-[UTCDate "2022.11.18"]
-[UTCTime "16:11:43"]
+[Annotator "Brémont,Valentin"]
+[UTCDate "2022.12.12"]
+[UTCTime "20:40:13"]
 [Variant "Standard"]
-[ECO "B10"]
-[Opening "Caro-Kann Defense: Two Knights Attack"]
-[Annotator "https://lichess.org/@/Valcraft021"]
+[ECO "C80"]
+[Opening "Ruy Lopez: Open"]
 
-1. e4 c6 2. Nf3 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 *
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 (3... d6 4. d4 exd4 (4... Bd7 5. Nc3 Nf6) 5. Nxd4 Bd7 6. Nc3)  (3... Nf6 4. O-O Bc5 (4... Nxe4 5. d4 Be7 (5... Nd6 6. dxe5 Nxb5 7. a4) 6. Qe2 { [%csl Ge2] }) 5. c3 { [%cal Gd2d4] } 5... O-O 6. d4)  (3... Nd4 4. Nxd4 exd4 5. O-O) 4. Ba4 Nf6 (4... b5 5. Bb3 Nf6 6. O-O Nxe4 7. d4) 5. O-O Nxe4 (5... b5 6. Bb3) 6. d4 b5 7. Bb3 d5 8. dxe5 *
 
 
-[Event "ChessRepertoire - White: E4 - vs Scandinave"]
-[Site "https://lichess.org/study/pVxuFeun/dBKA03zt"]
+[Event "White Repertoire: Scandinave - Blitzstream"]
+[Site "https://lichess.org/study/y5qD26Vd/nY4aCVdh"]
+[Date "2022.09.15"]
+[White "Scandinave"]
+[Black "Blitzstream"]
 [Result "*"]
-[UTCDate "2022.11.18"]
-[UTCTime "16:13:57"]
+[Annotator "Brémont,Valentin"]
+[UTCDate "2022.12.12"]
+[UTCTime "20:40:13"]
 [Variant "Standard"]
 [ECO "B01"]
 [Opening "Scandinavian Defense: Main Line"]
-[Annotator "https://lichess.org/@/Valcraft021"]
 
-1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Nf3 Nf6 5. d4 *
+1. e4 d5 2. exd5 Qxd5 (2... Nf6 3. Bb5+ c6 (3... Nbd7 4. Nc3)  (3... Bd7 4. Bc4 e6 (4... c6 5. dxc6 Bxc6 { [%cal Gf2f3,Gg1f3] })  (4... b5 5. Bb3)  (4... Bg4 { [%cal Gg1f3,Gf2f3] } 5. Nf3 { [%cal Gg4f3,Gd1f3,Gf3b7] }) 5. Qe2) 4. dxc6 bxc6 5. Bc4) 3. Nc3 Qa5 (3... Qd8 { [%cal Gf1c4,Gg1f3,Ge1g1] } 4. Bc4 { [%cal Gg1f3,Ge1g1] }) 4. Nf3 Nc6 5. Bb5 Bd7 6. O-O { [%cal Gd2d4,Gf1e1] } *
 
 
-[Event "ChessRepertoire - White: E4 - vs Francaise"]
-[Site "https://lichess.org/study/pVxuFeun/FM2lsSeX"]
+[Event "White Repertoire: French (Exchange)"]
+[Site "https://lichess.org/study/y5qD26Vd/AyUvIixA"]
+[Date "2022.09.15"]
+[White "French (Exchange)"]
 [Result "*"]
-[UTCDate "2022.11.18"]
-[UTCTime "16:14:31"]
+[Annotator "valen"]
+[UTCDate "2022.12.12"]
+[UTCTime "20:40:13"]
 [Variant "Standard"]
 [ECO "C01"]
 [Opening "French Defense: Exchange Variation"]
-[Annotator "https://lichess.org/@/Valcraft021"]
 
-1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Nc6 5. Nc3 Nf6 6. Bb5 *
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Nc6 (4... c5 5. Bb5+)  (4... Bd6 5. Bd3 Nc6 6. Nc3)  (4... Bf5 5. Bd3 Bxd3 6. Qxd3 c6 7. O-O)  (4... Bg4 5. h3 Bxf3 (5... Bh5 6. Qe2+ Qe7 7. Be3 Qb4+ (7... Nc6 8. g4 Bg6 9. Nc3) 8. c3) 6. Qxf3)  (4... Nf6 5. Bd3 c5 (5... Bd6 6. O-O O-O 7. h3 Re8 (7... a6 8. Re1 Re8 9. Nc3) 8. Bg5) 6. O-O) 5. Bd3 Nf6 6. O-O *
 
 
-[Event "ChessRepertoire - White: E4 - vs E5"]
-[Site "https://lichess.org/study/pVxuFeun/9OpolUYX"]
+[Event "White Repertoire: Sicilian (Alapin)"]
+[Site "https://lichess.org/study/y5qD26Vd/WhzlpGDZ"]
+[Date "2022.09.15"]
+[White "Sicilian (Alapin)"]
 [Result "*"]
-[UTCDate "2022.11.18"]
-[UTCTime "16:27:17"]
+[Annotator "valen"]
+[UTCDate "2022.12.12"]
+[UTCTime "20:40:13"]
 [Variant "Standard"]
-[ECO "C78"]
-[Opening "Ruy Lopez: Morphy Defense"]
-[Annotator "https://lichess.org/@/Valcraft021"]
+[ECO "B22"]
+[Opening "Sicilian Defense: Alapin Variation"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O *
-
-
-[Event "ChessRepertoire - White: Test full"]
-[Site "https://lichess.org/study/pVxuFeun/wduhDPNS"]
-[Result "*"]
-[UTCDate "2022.11.19"]
-[UTCTime "17:59:31"]
-[Variant "Standard"]
-[ECO "C70"]
-[Opening "Ruy Lopez: Morphy Defense, Caro Variation"]
-[Annotator "https://lichess.org/@/Valcraft021"]
-
-1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 (3... Nf6 4. O-O a6 5. Ba4) 4. Ba4 b5 5. Bb3 *
+1. e4 c5 2. c3 e5 (2... g6 3. d4 cxd4 4. cxd4 d5 (4... Bg7 5. Nf3) 5. e5)  (2... e6 3. d4 cxd4 (3... d5 4. exd5 exd5 5. Nf3) 4. cxd4)  (2... b6 3. d4 Bb7 4. Bd3 Nf6 5. Nd2)  (2... d6 3. d4 Nf6 4. Bd3 g6 (4... cxd4 5. cxd4 Nc6 6. Nf3) 5. h3)  (2... Nf6 3. e5 Nd5 (3... Ne4 4. d3) 4. d4 cxd4 5. Qxd4)  (2... d5 3. exd5 Qxd5 4. d4 e5 (4... g6 5. Nf3 cxd4 6. cxd4)  (4... e6 5. Na3)  (4... Nf6 5. Nf3)  (4... Nc6 5. Nf3) 5. dxe5 Qxd1+ (5... Qxe5+ 6. Be3) 6. Kxd1 Nc6 7. Bf4)  (2... Nc6 3. Nf3 Nf6 4. e5) 3. Nf3 Nc6 4. Bc4 d6 (4... Nf6 5. d3) 5. d4 *
 
 

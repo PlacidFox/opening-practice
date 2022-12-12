@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, request
 
 import os, json
 
@@ -17,12 +17,11 @@ def home():
 
 @views.route("/training-white")
 def trainingwhite():
-
+    
     if os.path.exists(JSON_PATH_WHITE):
         with open(JSON_PATH_WHITE, "r") as jsonFile:
             data_json = json.load(jsonFile)        
-            
-            
+                        
     return render_template("trainingwhite.html", data_json = data_json)
 
 

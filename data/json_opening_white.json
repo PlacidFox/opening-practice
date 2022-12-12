@@ -2,347 +2,7 @@
   "color": "White",
   "games": [
     {
-      "name": "ChessRepertoire - White: E4 - vs Caro-Kann",
-      "moves_pgn": [
-        {
-          "move_number": 1,
-          "color": "White",
-          "move": "e4"
-        },
-        {
-          "move_number": 1,
-          "color": "Black",
-          "move": "c6"
-        },
-        {
-          "move_number": 2,
-          "color": "White",
-          "move": "Nf3"
-        },
-        {
-          "move_number": 2,
-          "color": "Black",
-          "move": "d5"
-        },
-        {
-          "move_number": 3,
-          "color": "White",
-          "move": "Nc3"
-        },
-        {
-          "move_number": 3,
-          "color": "Black",
-          "move": "dxe4"
-        },
-        {
-          "move_number": 4,
-          "color": "White",
-          "move": "Nxe4"
-        },
-        {
-          "move_number": 4,
-          "color": "Black",
-          "move": "Nf6"
-        },
-        {
-          "move_number": 5,
-          "color": "White",
-          "move": "Ng3"
-        }
-      ],
-      "moves_uci": [
-        {
-          "move_number": 1,
-          "color": "White",
-          "from_square": "e2",
-          "to_square": "e4"
-        },
-        {
-          "move_number": 1,
-          "color": "Black",
-          "from_square": "c7",
-          "to_square": "c6"
-        },
-        {
-          "move_number": 2,
-          "color": "White",
-          "from_square": "g1",
-          "to_square": "f3"
-        },
-        {
-          "move_number": 2,
-          "color": "Black",
-          "from_square": "d7",
-          "to_square": "d5"
-        },
-        {
-          "move_number": 3,
-          "color": "White",
-          "from_square": "b1",
-          "to_square": "c3"
-        },
-        {
-          "move_number": 3,
-          "color": "Black",
-          "from_square": "d5",
-          "to_square": "e4"
-        },
-        {
-          "move_number": 4,
-          "color": "White",
-          "from_square": "c3",
-          "to_square": "e4"
-        },
-        {
-          "move_number": 4,
-          "color": "Black",
-          "from_square": "g8",
-          "to_square": "f6"
-        },
-        {
-          "move_number": 5,
-          "color": "White",
-          "from_square": "e4",
-          "to_square": "g3"
-        }
-      ]
-    },
-    {
-      "name": "ChessRepertoire - White: E4 - vs Scandinave",
-      "moves_pgn": [
-        {
-          "move_number": 1,
-          "color": "White",
-          "move": "e4"
-        },
-        {
-          "move_number": 1,
-          "color": "Black",
-          "move": "d5"
-        },
-        {
-          "move_number": 2,
-          "color": "White",
-          "move": "exd5"
-        },
-        {
-          "move_number": 2,
-          "color": "Black",
-          "move": "Qxd5"
-        },
-        {
-          "move_number": 3,
-          "color": "White",
-          "move": "Nc3"
-        },
-        {
-          "move_number": 3,
-          "color": "Black",
-          "move": "Qa5"
-        },
-        {
-          "move_number": 4,
-          "color": "White",
-          "move": "Nf3"
-        },
-        {
-          "move_number": 4,
-          "color": "Black",
-          "move": "Nf6"
-        },
-        {
-          "move_number": 5,
-          "color": "White",
-          "move": "d4"
-        }
-      ],
-      "moves_uci": [
-        {
-          "move_number": 1,
-          "color": "White",
-          "from_square": "e2",
-          "to_square": "e4"
-        },
-        {
-          "move_number": 1,
-          "color": "Black",
-          "from_square": "d7",
-          "to_square": "d5"
-        },
-        {
-          "move_number": 2,
-          "color": "White",
-          "from_square": "e4",
-          "to_square": "d5"
-        },
-        {
-          "move_number": 2,
-          "color": "Black",
-          "from_square": "d8",
-          "to_square": "d5"
-        },
-        {
-          "move_number": 3,
-          "color": "White",
-          "from_square": "b1",
-          "to_square": "c3"
-        },
-        {
-          "move_number": 3,
-          "color": "Black",
-          "from_square": "d5",
-          "to_square": "a5"
-        },
-        {
-          "move_number": 4,
-          "color": "White",
-          "from_square": "g1",
-          "to_square": "f3"
-        },
-        {
-          "move_number": 4,
-          "color": "Black",
-          "from_square": "g8",
-          "to_square": "f6"
-        },
-        {
-          "move_number": 5,
-          "color": "White",
-          "from_square": "d2",
-          "to_square": "d4"
-        }
-      ]
-    },
-    {
-      "name": "ChessRepertoire - White: E4 - vs Francaise",
-      "moves_pgn": [
-        {
-          "move_number": 1,
-          "color": "White",
-          "move": "e4"
-        },
-        {
-          "move_number": 1,
-          "color": "Black",
-          "move": "e6"
-        },
-        {
-          "move_number": 2,
-          "color": "White",
-          "move": "d4"
-        },
-        {
-          "move_number": 2,
-          "color": "Black",
-          "move": "d5"
-        },
-        {
-          "move_number": 3,
-          "color": "White",
-          "move": "exd5"
-        },
-        {
-          "move_number": 3,
-          "color": "Black",
-          "move": "exd5"
-        },
-        {
-          "move_number": 4,
-          "color": "White",
-          "move": "Nf3"
-        },
-        {
-          "move_number": 4,
-          "color": "Black",
-          "move": "Nc6"
-        },
-        {
-          "move_number": 5,
-          "color": "White",
-          "move": "Nc3"
-        },
-        {
-          "move_number": 5,
-          "color": "Black",
-          "move": "Nf6"
-        },
-        {
-          "move_number": 6,
-          "color": "White",
-          "move": "Bb5"
-        }
-      ],
-      "moves_uci": [
-        {
-          "move_number": 1,
-          "color": "White",
-          "from_square": "e2",
-          "to_square": "e4"
-        },
-        {
-          "move_number": 1,
-          "color": "Black",
-          "from_square": "e7",
-          "to_square": "e6"
-        },
-        {
-          "move_number": 2,
-          "color": "White",
-          "from_square": "d2",
-          "to_square": "d4"
-        },
-        {
-          "move_number": 2,
-          "color": "Black",
-          "from_square": "d7",
-          "to_square": "d5"
-        },
-        {
-          "move_number": 3,
-          "color": "White",
-          "from_square": "e4",
-          "to_square": "d5"
-        },
-        {
-          "move_number": 3,
-          "color": "Black",
-          "from_square": "e6",
-          "to_square": "d5"
-        },
-        {
-          "move_number": 4,
-          "color": "White",
-          "from_square": "g1",
-          "to_square": "f3"
-        },
-        {
-          "move_number": 4,
-          "color": "Black",
-          "from_square": "b8",
-          "to_square": "c6"
-        },
-        {
-          "move_number": 5,
-          "color": "White",
-          "from_square": "b1",
-          "to_square": "c3"
-        },
-        {
-          "move_number": 5,
-          "color": "Black",
-          "from_square": "g8",
-          "to_square": "f6"
-        },
-        {
-          "move_number": 6,
-          "color": "White",
-          "from_square": "f1",
-          "to_square": "b5"
-        }
-      ]
-    },
-    {
-      "name": "ChessRepertoire - White: E4 - vs E5",
+      "name": "White Repertoire: Ruy Lopez",
       "moves_pgn": [
         {
           "move_number": 1,
@@ -388,6 +48,36 @@
           "move_number": 5,
           "color": "White",
           "move": "O-O"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nxe4"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "b5"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "Bb3"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "move": "dxe5"
         }
       ],
       "moves_uci": [
@@ -444,11 +134,804 @@
           "color": "White",
           "from_square": "e1",
           "to_square": "g1"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "f6",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "b7",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "a4",
+          "to_square": "b3"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "from_square": "d4",
+          "to_square": "e5"
         }
       ]
     },
     {
-      "name": "ChessRepertoire - White: Test full",
+      "name": "White Repertoire: Ruy Lopez",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "d6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "exd4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nxd4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Bd7"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Nc3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "e5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "f3",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Ruy Lopez",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "d6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Bd7"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nf6"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Ruy Lopez",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "O-O"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Bc5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "O-O"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "d4"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "e8",
+          "to_square": "g8"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Ruy Lopez",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "O-O"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nxe4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Be7"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Qe2"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "f6",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "e7"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "d1",
+          "to_square": "e2"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Ruy Lopez",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "O-O"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nxe4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nd6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "dxe5"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Nxb5"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "a4"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "f6",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "e4",
+          "to_square": "d6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "d4",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "d6",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "a2",
+          "to_square": "a4"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Ruy Lopez",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nd4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nxd4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "exd4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "O-O"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "f3",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "e5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Ruy Lopez",
       "moves_pgn": [
         {
           "move_number": 1,
@@ -494,6 +977,26 @@
           "move_number": 5,
           "color": "White",
           "move": "Bb3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "O-O"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Nxe4"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "d4"
         }
       ],
       "moves_uci": [
@@ -550,11 +1053,35 @@
           "color": "White",
           "from_square": "a4",
           "to_square": "b3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "f6",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
         }
       ]
     },
     {
-      "name": "ChessRepertoire - White: Test full",
+      "name": "White Repertoire: Ruy Lopez",
       "moves_pgn": [
         {
           "move_number": 1,
@@ -584,22 +1111,32 @@
         {
           "move_number": 3,
           "color": "Black",
-          "move": "Nf6"
+          "move": "a6"
         },
         {
           "move_number": 4,
           "color": "White",
-          "move": "O-O"
+          "move": "Ba4"
         },
         {
           "move_number": 4,
           "color": "Black",
-          "move": "a6"
+          "move": "Nf6"
         },
         {
           "move_number": 5,
           "color": "White",
-          "move": "Ba4"
+          "move": "O-O"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "b5"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Bb3"
         }
       ],
       "moves_uci": [
@@ -636,26 +1173,4327 @@
         {
           "move_number": 3,
           "color": "Black",
+          "from_square": "a7",
+          "to_square": "a6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "b5",
+          "to_square": "a4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "b7",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "a4",
+          "to_square": "b3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Scandinave - Blitzstream",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Qxd5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Qa5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Bd7"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "O-O"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d5",
+          "to_square": "a5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Scandinave - Blitzstream",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5+"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "dxc6"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "bxc6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Bc4"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d5",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "b5",
+          "to_square": "c4"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Scandinave - Blitzstream",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5+"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nbd7"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nc3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Scandinave - Blitzstream",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5+"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Bd7"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Bc4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Qe2"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "b5",
+          "to_square": "c4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "d1",
+          "to_square": "e2"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Scandinave - Blitzstream",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5+"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Bd7"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Bc4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "dxc6"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Bxc6"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "b5",
+          "to_square": "c4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "d5",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "c6"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Scandinave - Blitzstream",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5+"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Bd7"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Bc4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "b5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Bb3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "b5",
+          "to_square": "c4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b7",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "c4",
+          "to_square": "b3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Scandinave - Blitzstream",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bb5+"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Bd7"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Bc4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Bg4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nf3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "b5",
+          "to_square": "c4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "g4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Scandinave - Blitzstream",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Qxd5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Qd8"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Bc4"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d5",
+          "to_square": "d8"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "c4"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: French (Exchange)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "exd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Bd3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "O-O"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "e6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "d3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: French (Exchange)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "exd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Bb5+"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "e6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: French (Exchange)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "exd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Bd6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Bd3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Nc3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "e6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "d6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "d3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: French (Exchange)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "exd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Bf5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Bd3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Bxd3"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Qxd3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "O-O"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "e6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "f5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "d3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "f5",
+          "to_square": "d3"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "d1",
+          "to_square": "d3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: French (Exchange)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "exd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Bg4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "h3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Bxf3"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Qxf3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "e6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "g4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "h2",
+          "to_square": "h3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "g4",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "d1",
+          "to_square": "f3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: French (Exchange)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "exd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Bg4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "h3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Bh5"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Qe2+"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Qe7"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "Be3"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "Qb4+"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "move": "c3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "e6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "g4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "h2",
+          "to_square": "h3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "g4",
+          "to_square": "h5"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "d1",
+          "to_square": "e2"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "e7"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "c1",
+          "to_square": "e3"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "b4"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: French (Exchange)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "exd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Bg4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "h3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Bh5"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Qe2+"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Qe7"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "Be3"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "move": "g4"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "move": "Bg6"
+        },
+        {
+          "move_number": 9,
+          "color": "White",
+          "move": "Nc3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "e6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "g4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "h2",
+          "to_square": "h3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "g4",
+          "to_square": "h5"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "d1",
+          "to_square": "e2"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "e7"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "c1",
+          "to_square": "e3"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "from_square": "g2",
+          "to_square": "g4"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "from_square": "h5",
+          "to_square": "g6"
+        },
+        {
+          "move_number": 9,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: French (Exchange)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "exd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Bd3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "O-O"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "e6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "d3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: French (Exchange)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "exd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Bd3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Bd6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "O-O"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "O-O"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "h3"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "Re8"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "move": "Bg5"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "e6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "d3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "d6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "e8",
+          "to_square": "g8"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "h2",
+          "to_square": "h3"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "e8"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "from_square": "c1",
+          "to_square": "g5"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: French (Exchange)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "exd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Bd3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Bd6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "O-O"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "O-O"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "h3"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "a6"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "move": "Re1"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "move": "Re8"
+        },
+        {
+          "move_number": 9,
+          "color": "White",
+          "move": "Nc3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "e6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "d3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "d6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "e8",
+          "to_square": "g8"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "h2",
+          "to_square": "h3"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "a7",
+          "to_square": "a6"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "e1"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "e8"
+        },
+        {
+          "move_number": 9,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Bc4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "d6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "d4"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "c4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "g6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "e5"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "g7",
+          "to_square": "g6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "c3",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "e5"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "g6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Bg7"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nf3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "g7",
+          "to_square": "g6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "c3",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "g7"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "cxd4"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "c3",
+          "to_square": "d4"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "exd5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nf3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "e6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "b6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Bb7"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Bd3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nd2"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "b7",
+          "to_square": "b6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "b7"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "d3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "d2"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Bd3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "g6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "h3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
           "from_square": "g8",
           "to_square": "f6"
         },
         {
           "move_number": 4,
           "color": "White",
-          "from_square": "e1",
-          "to_square": "g1"
+          "from_square": "f1",
+          "to_square": "d3"
         },
         {
           "move_number": 4,
           "color": "Black",
-          "from_square": "a7",
-          "to_square": "a6"
+          "from_square": "g7",
+          "to_square": "g6"
         },
         {
           "move_number": 5,
           "color": "White",
-          "from_square": "b5",
-          "to_square": "a4"
+          "from_square": "h2",
+          "to_square": "h3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Bd3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Nf3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "d3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "c3",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Qxd4"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "f6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "d1",
+          "to_square": "d4"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Ne4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "d3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "f6",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Qxd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "dxe5"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Qxd1+"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Kxd1"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "Bf4"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "d4",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "d5",
+          "to_square": "d1"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "d1"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "c1",
+          "to_square": "f4"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Qxd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "g6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "cxd4"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "g7",
+          "to_square": "g6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "c3",
+          "to_square": "d4"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Qxd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Na3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "a3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Qxd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nf3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Qxd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nf3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Qxd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "dxe5"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Qxe5+"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Be3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "d4",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "d5",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "c1",
+          "to_square": "e3"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "e5"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "e5"
+        }
+      ]
+    },
+    {
+      "name": "White Repertoire: Sicilian (Alapin)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Bc4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "d3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "c4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d3"
         }
       ]
     }

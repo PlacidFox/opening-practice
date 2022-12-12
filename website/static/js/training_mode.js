@@ -39,7 +39,12 @@ function select_random_moves(){
 function launch_training_fail_safe(){
 
     document.getElementById("text_training_status").innerHTML = "TRAINING IN PROGRESS... (FAIL SAFE)";
-    document.getElementById("text_training_opening").innerHTML = "A RANDOM WHITE OPENING";
+
+    iter_white_play = 0;
+    iter_black_play = 1;
+
+    iter_white_auto_play = 0
+    iter_black_auto_play = 1;
 
     select_random_moves();
 
@@ -47,11 +52,13 @@ function launch_training_fail_safe(){
     setBoard(color_training.toLowerCase());
 
     if (color_training == "White"){
+        document.getElementById("text_training_opening").innerHTML = "A RANDOM WHITE OPENING";
         move_white = moves_training[iter_white_play];
         listen_choice_training_white("fail_safe");//fail_safe to put in a ENUM ?
     }
 
     if (color_training == "Black"){
+        document.getElementById("text_training_opening").innerHTML = "A RANDOM BLACK OPENING";
         move_black = moves_training[iter_black_play]
         do_auto_next_moves_white();
         listen_choice_training_black("fail_safe");//fail_safe to put in a ENUM ?
@@ -92,11 +99,11 @@ function do_auto_next_moves_black(){
 
     if (iter_black_auto_play < Object.keys(moves_training).length){
 
-    let move = moves_training[iter_black_auto_play]
-    set_list_moves(move["from_square"].toUpperCase(), move["to_square"].toUpperCase(), 2);
-    move_pieces(move["from_square"].toUpperCase(), move["to_square"].toUpperCase());
+        let move = moves_training[iter_black_auto_play]
+        set_list_moves(move["from_square"].toUpperCase(), move["to_square"].toUpperCase(), 2);
+        move_pieces(move["from_square"].toUpperCase(), move["to_square"].toUpperCase());
 
-    iter_black_auto_play += 2;
+        iter_black_auto_play += 2;
 
     }
     else{
@@ -112,11 +119,11 @@ function do_auto_next_moves_white(){
 
     if (iter_white_auto_play < Object.keys(moves_training).length){
 
-    let move = moves_training[iter_white_auto_play]
-    set_list_moves(move["from_square"].toUpperCase(), move["to_square"].toUpperCase(), 1);
-    move_pieces(move["from_square"].toUpperCase(), move["to_square"].toUpperCase());
+        let move = moves_training[iter_white_auto_play]
+        set_list_moves(move["from_square"].toUpperCase(), move["to_square"].toUpperCase(), 1);
+        move_pieces(move["from_square"].toUpperCase(), move["to_square"].toUpperCase());
 
-    iter_white_auto_play += 2;
+        iter_white_auto_play += 2;
 
     }
     else{

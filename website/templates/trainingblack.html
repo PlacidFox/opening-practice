@@ -35,10 +35,13 @@
 
 <body>
     <h3 id="header">Training Mode For Black</h3>
+    <h5 id="header">Hit Space to rematch</h5>
     <p id="textp"></p>
-    <input id="clickMe" type="button" value="Launch Training - Fail Safe" onclick='launch_training_fail_safe()' />
-    <input id="clickMe" type="button" value="Launch Training - DeathMatch" onclick='launch_training_death_match()' />
-    <button id="clickMe" onClick="window.location.reload();">Reset</button>
+    <input id="clickMe" type="button" value="Launch Training" onClick='window.location.reload()' />
+    <div id =checkBox>
+        <input id="deathmatchbox" type="checkbox"  name="accept" value="yes">  
+        <label for="accept"> DeathMatch Mode On ?</label>
+    </div>
     <p id="textp"></p>
     <p id="text_training_status">WAIT TRAINING LAUNCH</p>
     <p id="text_training_opening">...</p>
@@ -168,6 +171,21 @@
     <script type="text/javascript">
         var data_json = JSON.parse('{{ data_json | tojson | safe}}');
         fetch_json(data_json);
+        const modeChoice = document.getElementById("deathmatchbox");
+        if (modeChoice.checked == false){
+            launch_training_fail_safe()
+        }
+        if (modeChoice.checked == true){
+            launch_training_death_match()
+        }
+
+        document.body.onkeyup = function(e) {
+        if (
+            e.code == "Space"  
+        ) {
+            window.location.reload()
+        }
+        }
     </script>
 
 </body>
