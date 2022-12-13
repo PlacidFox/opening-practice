@@ -10,7 +10,7 @@ class Colors(Enum):
 
 
 URLS_LICHESS = {Colors.WHITE: "https://lichess.org/api/study/y5qD26Vd.pgn",
-              Colors.BLACK: "https://lichess.org/api/study/Bdv5DTTo.pgn"}
+              Colors.BLACK: "https://lichess.org/api/study/GfoK4PuC.pgn"}
 
 JSON_FILES = {Colors.WHITE: "./data/json_opening_white.json",
               Colors.BLACK: "./data/json_opening_black.json"}

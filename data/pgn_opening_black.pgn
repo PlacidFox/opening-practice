@@ -1,39 +1,108 @@
-[Event "ChessRepertoire - Black: Black - vs 1.E4 - Caro-Kann - Avance"]
-[Site "https://lichess.org/study/Bdv5DTTo/rLLpxKuy"]
+[Event "Black Repertoire: Caro-Kann (avance) - Var. Botvinnik"]
+[Site "https://lichess.org/study/GfoK4PuC/ejhJLKSP"]
+[Date "2022.09.15"]
+[White "Caro-Kann (avance)"]
+[Black "Var. Botvinnik"]
 [Result "*"]
-[UTCDate "2022.11.14"]
-[UTCTime "09:56:21"]
+[Annotator "Brémont,Valentin"]
+[UTCDate "2022.12.13"]
+[UTCTime "20:02:21"]
 [Variant "Standard"]
 [ECO "B12"]
 [Opening "Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense"]
-[Annotator "https://lichess.org/@/Valcraft021"]
 
-1. e4 c6 2. d4 d5 3. e5 c5 4. Nf3 cxd4 5. Nxd4 Nc6 6. Nxc6 bxc6 *
+{ [%evp 0,18,19,31,63,73,74,73,77,60,82,58,50,49,31,25,25,29,29,19,19] }
+1. e4 c6 2. d4 d5 3. e5 c5 4. Nf3 (4. dxc5 e6 5. Nf3 (5. Be3 Nd7 6. Bb5 Qa5+ 7. Nc3 a6 8. Bxd7+ Bxd7 9. Nf3 Bxc5 10. Bxc5 Qxc5) 5... Bxc5 6. Bd3 Nc6 7. O-O Nge7)  (4. c3 Nc6 5. Nf3 (5. Bb5 e6 6. Nf3 Bd7 7. O-O Nxe5 8. Nxe5 (8. Bxd7+ Nxd7) 8... Bxb5) 5... cxd4 6. cxd4 (6. Nxd4 Nxd4) 6... Bg4 7. h3 (7. Be2 e6) 7... Bxf3 { [%cal Gd1f3,Gc6d4] }) 4... cxd4 5. Nxd4 (5. Qxd4 Nc6 6. Qa4 e6 7. Bb5 Bd7 8. O-O a6 9. Bxc6 Bxc6 { [%csl Ga4][%cal Gc6a4,Ga4f4,Ga4b3,Ga4g4] }) 5... e6 6. Bd3 Nc6 7. Nxc6 bxc6 8. O-O Ne7 9. Re1 Qc7 { pour ...Cg6 } { [%csl Gg6][%cal Ge7g6] } *
 
 
-[Event "ChessRepertoire - Black: Black - vs 1.E4 - Caro-Kann - Classical"]
-[Site "https://lichess.org/study/Bdv5DTTo/9C38TPBU"]
+[Event "Black Repertoire: English"]
+[Site "https://lichess.org/study/GfoK4PuC/XPrbiZSq"]
+[Date "2022.09.15"]
+[White "English"]
 [Result "*"]
-[UTCDate "2022.11.14"]
-[UTCTime "09:57:34"]
+[Annotator "Val"]
+[UTCDate "2022.12.13"]
+[UTCTime "20:02:21"]
+[Variant "Standard"]
+[ECO "A28"]
+[Opening "English Opening: Four Knights System, Nimzowitsch Variation"]
+
+1. c4 e5 2. Nc3 (2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Nb6) 2... Nf6 3. Nf3 Nc6 4. e4 (4. e3 Bb4 5. Qc2 Bxc3 6. Qxc3)  (4. a3 d5 5. cxd5 Nxd5 6. Qc2 Nxc3 7. dxc3)  (4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7) 4... Bb4 5. d3 d6 6. a3 Bc5 7. b4 Bb6 *
+
+
+[Event "Black Repertoire: Caro-Kann (exchange)"]
+[Site "https://lichess.org/study/GfoK4PuC/WnTnqqB2"]
+[Date "2022.09.15"]
+[White "Caro-Kann (Exchange / Panov)"]
+[Result "*"]
+[Annotator "Val"]
+[UTCDate "2022.12.13"]
+[UTCTime "20:02:21"]
+[Variant "Standard"]
+[ECO "B13"]
+[Opening "Caro-Kann Defense: Exchange Variation"]
+
+{ [%evp 0,10,19,28,69,69,61,54,54,45,54,42,41] }
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 (4. c4 Nf6 5. Nf3 g6 6. Nc3 Bg7) 4... Nc6 5. Nc3 Nf6 *
+
+
+[Event "Black Repertoire: Caro-Kann (Fantasy)"]
+[Site "https://lichess.org/study/GfoK4PuC/xitNEQCb"]
+[Date "2022.09.15"]
+[White "Caro-Kann (Fantasy)"]
+[Result "*"]
+[UTCDate "2022.12.13"]
+[UTCTime "20:02:21"]
+[Variant "Standard"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Maróczy Variation"]
+[Annotator "https://lichess.org/@/Placid_Fox"]
+
+1. e4 c6 2. d4 d5 3. f3 g6 4. Nc3 Bg7 *
+
+
+[Event "Black Repertoire: Caro-Kann (Two Knights)"]
+[Site "https://lichess.org/study/GfoK4PuC/6LT54suo"]
+[Date "2022.09.15"]
+[White "Caro-Kann (2 Knights)"]
+[Result "*"]
+[UTCDate "2022.12.13"]
+[UTCTime "20:02:21"]
+[Variant "Standard"]
+[ECO "B11"]
+[Opening "Caro-Kann Defense: Two Knights Attack, Mindeno Variation, Exchange Line"]
+[Annotator "https://lichess.org/@/Placid_Fox"]
+
+1. e4 c6 2. Nf3 d5 3. Nc3 Bg4 4. h3 Bxf3 5. Qxf3 e6 *
+
+
+[Event "Black Repertoire: Caro-Kann (Classical)"]
+[Site "https://lichess.org/study/GfoK4PuC/vbs2pZ1P"]
+[Date "2022.09.15"]
+[White "Caro-Kann (Classical)"]
+[Result "*"]
+[UTCDate "2022.12.13"]
+[UTCTime "20:02:21"]
 [Variant "Standard"]
 [ECO "B15"]
 [Opening "Caro-Kann Defense: Tartakower Variation"]
-[Annotator "https://lichess.org/@/Valcraft021"]
+[Annotator "https://lichess.org/@/Placid_Fox"]
 
-1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 *
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. Nf3 Bd6 7. Be2 O-O 8. O-O Re8 9. h3 Nd7 10. c3 Nf8 *
 
 
-[Event "ChessRepertoire - Black: Black - vs 1.d4 - Slav"]
-[Site "https://lichess.org/study/Bdv5DTTo/hf8xuHMO"]
+[Event "Black Repertoire: London System"]
+[Site "https://lichess.org/study/GfoK4PuC/hAJFt004"]
+[Date "2022.09.15"]
+[White "London System"]
 [Result "*"]
-[UTCDate "2022.11.14"]
-[UTCTime "09:58:55"]
+[Annotator "Val"]
+[UTCDate "2022.12.13"]
+[UTCTime "20:02:21"]
 [Variant "Standard"]
-[ECO "D15"]
-[Opening "Slav Defense: Three Knights Variation"]
-[Annotator "https://lichess.org/@/Valcraft021"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Steinitz Countergambit"]
 
-1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 Bf5 *
+1. d4 d5 2. Bf4 c5 3. c3 (3. dxc5 Nc6 4. e4 (4. Nf3 e6) 4... e5 5. Bg3 Bxc5)  (3. Nf3 cxd4 4. Qxd4 (4. Nxd4 Nd7) 4... Nc6)  (3. e3 cxd4 4. exd4 Nc6 5. Nf3 (5. c3 Bf5) 5... Bg4)  (3. Nc3 Nc6 4. Nb5 Qa5+ 5. Nc3 cxd4) 3... Qb6 4. Qb3 (4. Nf3 cxd4)  (4. Qc2 cxd4 5. cxd4 Nc6) 4... Qxb3 5. axb3 cxd4 6. cxd4 Nc6 *
 
 

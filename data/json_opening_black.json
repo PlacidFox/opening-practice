@@ -2,7 +2,7 @@
   "color": "Black",
   "games": [
     {
-      "name": "ChessRepertoire - Black: Black - vs 1.E4 - Caro-Kann - Avance",
+      "name": "Black Repertoire: Caro-Kann (avance) - Var. Botvinnik",
       "moves_pgn": [
         {
           "move_number": 1,
@@ -52,17 +52,47 @@
         {
           "move_number": 5,
           "color": "Black",
-          "move": "Nc6"
+          "move": "e6"
         },
         {
           "move_number": 6,
           "color": "White",
-          "move": "Nxc6"
+          "move": "Bd3"
         },
         {
           "move_number": 6,
           "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "Nxc6"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
           "move": "bxc6"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "move": "O-O"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "move": "Ne7"
+        },
+        {
+          "move_number": 9,
+          "color": "White",
+          "move": "Re1"
+        },
+        {
+          "move_number": 9,
+          "color": "Black",
+          "move": "Qc7"
         }
       ],
       "moves_uci": [
@@ -123,6 +153,1426 @@
         {
           "move_number": 5,
           "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "d3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "d4",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "b7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "e7"
+        },
+        {
+          "move_number": 9,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "e1"
+        },
+        {
+          "move_number": 9,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "c7"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: Caro-Kann (avance) - Var. Botvinnik",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "dxc5"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Bxc5"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Bd3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "O-O"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "Nge7"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d4",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "d3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "e7"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: Caro-Kann (avance) - Var. Botvinnik",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "dxc5"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Be3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nd7"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Qa5+"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "a6"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "move": "Bxd7+"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "move": "Bxd7"
+        },
+        {
+          "move_number": 9,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 9,
+          "color": "Black",
+          "move": "Bxc5"
+        },
+        {
+          "move_number": 10,
+          "color": "White",
+          "move": "Bxc5"
+        },
+        {
+          "move_number": 10,
+          "color": "Black",
+          "move": "Qxc5"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d4",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "c1",
+          "to_square": "e3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "a5"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "a7",
+          "to_square": "a6"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "from_square": "b5",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 9,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 9,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 10,
+          "color": "White",
+          "from_square": "e3",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 10,
+          "color": "Black",
+          "from_square": "a5",
+          "to_square": "c5"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: Caro-Kann (avance) - Var. Botvinnik",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Bg4"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "h3"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "Bxf3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "c3",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "g4"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "h2",
+          "to_square": "h3"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "g4",
+          "to_square": "f3"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: Caro-Kann (avance) - Var. Botvinnik",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Bd7"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "O-O"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "Nxe5"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "move": "Nxe5"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "move": "Bxb5"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "from_square": "f3",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "b5"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: Caro-Kann (avance) - Var. Botvinnik",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Bd7"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "O-O"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "Nxe5"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "move": "Bxd7+"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "move": "Nxd7"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "from_square": "b5",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "from_square": "e5",
+          "to_square": "d7"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: Caro-Kann (avance) - Var. Botvinnik",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Nxd4"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Nxd4"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "f3",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "d4"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: Caro-Kann (avance) - Var. Botvinnik",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Bg4"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "Be2"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "e6"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "c3",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "g4"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "e2"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: Caro-Kann (avance) - Var. Botvinnik",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Qxd4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Qa4"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "e6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "Bb5"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "Bd7"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "move": "O-O"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "move": "a6"
+        },
+        {
+          "move_number": 9,
+          "color": "White",
+          "move": "Bxc6"
+        },
+        {
+          "move_number": 9,
+          "color": "Black",
+          "move": "Bxc6"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "d1",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
           "from_square": "b8",
           "to_square": "c6"
         },
@@ -130,18 +1580,1239 @@
           "move_number": 6,
           "color": "White",
           "from_square": "d4",
-          "to_square": "c6"
+          "to_square": "a4"
         },
         {
           "move_number": 6,
           "color": "Black",
-          "from_square": "b7",
+          "from_square": "e7",
+          "to_square": "e6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "b5"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "from_square": "a7",
+          "to_square": "a6"
+        },
+        {
+          "move_number": 9,
+          "color": "White",
+          "from_square": "b5",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 9,
+          "color": "Black",
+          "from_square": "d7",
           "to_square": "c6"
         }
       ]
     },
     {
-      "name": "ChessRepertoire - Black: Black - vs 1.E4 - Caro-Kann - Classical",
+      "name": "Black Repertoire: English",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "c4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Bb4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "d3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "d6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "a3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Bc5"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "b4"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "Bb6"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "b4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "a2",
+          "to_square": "a3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "b4",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "b2",
+          "to_square": "b4"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "b6"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: English",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "c4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "g3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Bg2"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "cxd5"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nxd5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nb6"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "g2",
+          "to_square": "g3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "g2"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "c4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "f6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "d5",
+          "to_square": "b6"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: English",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "c4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "e3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Bb4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Qc2"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Bxc3"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Qxc3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "b4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "d1",
+          "to_square": "c2"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "b4",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: English",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "c4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "a3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "cxd5"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nxd5"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Qc2"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Nxc3"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "dxc3"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "a2",
+          "to_square": "a3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "c4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "f6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "d1",
+          "to_square": "c2"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "d5",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "c3"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: English",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "c4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "g3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "cxd5"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nxd5"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Bg2"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Nb6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "O-O"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "Be7"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g2",
+          "to_square": "g3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "c4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "f6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "g2"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "d5",
+          "to_square": "b6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "e7"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: Caro-Kann (exchange)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "cxd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nf6"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: Caro-Kann (exchange)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "exd5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "cxd5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "c4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nf6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "g6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Bg7"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e4",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c6",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "g8",
+          "to_square": "f6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "g7",
+          "to_square": "g6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "g7"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: Caro-Kann (Fantasy)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "f3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "g6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Bg7"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "f2",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "g7",
+          "to_square": "g6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "g7"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: Caro-Kann (Two Knights)",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Bg4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "h3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Bxf3"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Qxf3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "e6"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "b1",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "g4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "h2",
+          "to_square": "h3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "g4",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "d1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: Caro-Kann (Classical)",
       "moves_pgn": [
         {
           "move_number": 1,
@@ -192,6 +2863,56 @@
           "move_number": 5,
           "color": "Black",
           "move": "exf6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Bd6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "move": "Be2"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "move": "O-O"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "move": "O-O"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "move": "Re8"
+        },
+        {
+          "move_number": 9,
+          "color": "White",
+          "move": "h3"
+        },
+        {
+          "move_number": 9,
+          "color": "Black",
+          "move": "Nd7"
+        },
+        {
+          "move_number": 10,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 10,
+          "color": "Black",
+          "move": "Nf8"
         }
       ],
       "moves_uci": [
@@ -254,11 +2975,71 @@
           "color": "Black",
           "from_square": "e7",
           "to_square": "f6"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "d6"
+        },
+        {
+          "move_number": 7,
+          "color": "White",
+          "from_square": "f1",
+          "to_square": "e2"
+        },
+        {
+          "move_number": 7,
+          "color": "Black",
+          "from_square": "e8",
+          "to_square": "g8"
+        },
+        {
+          "move_number": 8,
+          "color": "White",
+          "from_square": "e1",
+          "to_square": "g1"
+        },
+        {
+          "move_number": 8,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "e8"
+        },
+        {
+          "move_number": 9,
+          "color": "White",
+          "from_square": "h2",
+          "to_square": "h3"
+        },
+        {
+          "move_number": 9,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "d7"
+        },
+        {
+          "move_number": 10,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 10,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "f8"
         }
       ]
     },
     {
-      "name": "ChessRepertoire - Black: Black - vs 1.d4 - Slav",
+      "name": "Black Repertoire: London System",
       "moves_pgn": [
         {
           "move_number": 1,
@@ -273,12 +3054,363 @@
         {
           "move_number": 2,
           "color": "White",
-          "move": "c4"
+          "move": "Bf4"
         },
         {
           "move_number": 2,
           "color": "Black",
-          "move": "c6"
+          "move": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Qb6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Qb3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Qxb3"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "axb3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "move": "Nc6"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c1",
+          "to_square": "f4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "b6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d1",
+          "to_square": "b3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b6",
+          "to_square": "b3"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "a2",
+          "to_square": "b3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 6,
+          "color": "White",
+          "from_square": "c3",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 6,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: London System",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Bf4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "dxc5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "e4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "e5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Bg3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Bxc5"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c1",
+          "to_square": "f4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "d4",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "f4",
+          "to_square": "g3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "f8",
+          "to_square": "c5"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: London System",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Bf4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "dxc5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "e6"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c1",
+          "to_square": "f4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "d4",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "e7",
+          "to_square": "e6"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: London System",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Bf4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "c5"
         },
         {
           "move_number": 3,
@@ -288,15 +3420,332 @@
         {
           "move_number": 3,
           "color": "Black",
-          "move": "Nf6"
+          "move": "cxd4"
         },
         {
           "move_number": 4,
           "color": "White",
-          "move": "Nc3"
+          "move": "Qxd4"
         },
         {
           "move_number": 4,
+          "color": "Black",
+          "move": "Nc6"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c1",
+          "to_square": "f4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d1",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: London System",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Bf4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nxd4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nd7"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c1",
+          "to_square": "f4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "f3",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "d7"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: London System",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Bf4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "e3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "exd4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Bg4"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c1",
+          "to_square": "f4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "e2",
+          "to_square": "e3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "e3",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "g4"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: London System",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Bf4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "e3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "exd4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 5,
           "color": "Black",
           "move": "Bf5"
         }
@@ -317,38 +3766,379 @@
         {
           "move_number": 2,
           "color": "White",
-          "from_square": "c2",
-          "to_square": "c4"
+          "from_square": "c1",
+          "to_square": "f4"
         },
         {
           "move_number": 2,
           "color": "Black",
           "from_square": "c7",
-          "to_square": "c6"
+          "to_square": "c5"
         },
         {
           "move_number": 3,
           "color": "White",
-          "from_square": "g1",
-          "to_square": "f3"
+          "from_square": "e2",
+          "to_square": "e3"
         },
         {
           "move_number": 3,
           "color": "Black",
-          "from_square": "g8",
-          "to_square": "f6"
+          "from_square": "c5",
+          "to_square": "d4"
         },
         {
           "move_number": 4,
+          "color": "White",
+          "from_square": "e3",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "c8",
+          "to_square": "f5"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: London System",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Bf4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Nc6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nb5"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "Qa5+"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "Nc3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "cxd4"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c1",
+          "to_square": "f4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 3,
           "color": "White",
           "from_square": "b1",
           "to_square": "c3"
         },
         {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "c3",
+          "to_square": "b5"
+        },
+        {
           "move_number": 4,
           "color": "Black",
-          "from_square": "c8",
-          "to_square": "f5"
+          "from_square": "d8",
+          "to_square": "a5"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "b5",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: London System",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Bf4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Qb6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Nf3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "cxd4"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c1",
+          "to_square": "f4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "b6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "g1",
+          "to_square": "f3"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        }
+      ]
+    },
+    {
+      "name": "Black Repertoire: London System",
+      "moves_pgn": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "move": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "move": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "move": "Bf4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "move": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "move": "c3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "move": "Qb6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "move": "Qc2"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "move": "cxd4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "move": "Nc6"
+        }
+      ],
+      "moves_uci": [
+        {
+          "move_number": 1,
+          "color": "White",
+          "from_square": "d2",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 1,
+          "color": "Black",
+          "from_square": "d7",
+          "to_square": "d5"
+        },
+        {
+          "move_number": 2,
+          "color": "White",
+          "from_square": "c1",
+          "to_square": "f4"
+        },
+        {
+          "move_number": 2,
+          "color": "Black",
+          "from_square": "c7",
+          "to_square": "c5"
+        },
+        {
+          "move_number": 3,
+          "color": "White",
+          "from_square": "c2",
+          "to_square": "c3"
+        },
+        {
+          "move_number": 3,
+          "color": "Black",
+          "from_square": "d8",
+          "to_square": "b6"
+        },
+        {
+          "move_number": 4,
+          "color": "White",
+          "from_square": "d1",
+          "to_square": "c2"
+        },
+        {
+          "move_number": 4,
+          "color": "Black",
+          "from_square": "c5",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "White",
+          "from_square": "c3",
+          "to_square": "d4"
+        },
+        {
+          "move_number": 5,
+          "color": "Black",
+          "from_square": "b8",
+          "to_square": "c6"
         }
       ]
     }
