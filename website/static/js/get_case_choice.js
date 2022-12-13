@@ -19,6 +19,18 @@ function get_choice(color_id, move_from, move_to){
     return dict_choice;
 }
 
+function listen_choice_grab(){
+
+    document.querySelectorAll('.square').forEach(item => {
+
+        item.addEventListener('dragstart', onDragStart);
+        
+        function onDragStart(e) {
+            console.log(item.id)
+        }                
+
+    })
+}
 
 
 function listen_choice(){
